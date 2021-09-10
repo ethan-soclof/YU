@@ -1,0 +1,11 @@
+Assignment OrderOfGrowth1 [SoclofEthan]: 8.5/10
+
+I explictly asked for you to prove by selecting appropriate constants
+etc which includes a specification of the constants and n_0.  you
+omitted this, while demonstrating that you understand the concepts
+overall.  deducting 1.5 points for not answering the specified
+questions.
+
+Pulled files on Fri Sep 18 10:36:58 EDT 2020
+Latest commit of student files ....
+Latest commit of IntroToAlgorithms/assignments/OrderOfGrowth1/OrderOfGrowth1.pdf was on: Mon Sep 14 22:03:31 2020

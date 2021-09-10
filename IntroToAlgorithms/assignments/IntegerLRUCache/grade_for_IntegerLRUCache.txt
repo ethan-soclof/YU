@@ -1,0 +1,94 @@
+Grade for assignment [SoclofEthan]: 8.5/10
+
+I threw in a fudge-factor to allow ratios to exceed the O(n) mandate
+of 2.0.  However: deducting if ratio exceeds something reasonable for
+O(n) or times out.
+
+
+
+Pulled files on Tue Nov 17 10:20:31 EST 2020
+Latest commit of student files ....
+Latest commit of src/main/java/edu/yu/introtoalgs/IntegerLRUCache.java was on: Mon Nov 16 23:17:08 2020
+building Student SoclofEthan assignment code base from directory /Users/avraham/YUGitRepos/2545/SoclofEthan/IntroToAlgorithms/assignments/IntegerLRUCache
+Picked up JAVA_TOOL_OPTIONS: -Xms4096m -Xmx15G -XX:MaxMetaspaceSize=1G
+Copying Professor's JUnit source files in /Users/avraham/YUTeaching/IntroToAlgorithms/assignments/IntegerLRUCache/src/test to Student SoclofEthan directory tree in /Users/avraham/YUGitRepos/2545/SoclofEthan/IntroToAlgorithms/assignments/IntegerLRUCache/src
+executing Professor's test code against Student SoclofEthan code
+Picked up JAVA_TOOL_OPTIONS: -Xms4096m -Xmx15G -XX:MaxMetaspaceSize=1G
+[ERROR] Picked up JAVA_TOOL_OPTIONS: -Xms4096m -Xmx15G -XX:MaxMetaspaceSize=1G
+Test cases to execute : 1
+Execution Started : putKeyCantBeNull
+Execution Finished : putKeyCantBeNull
+Execution Started : putWhenPresent
+Execution Finished : putWhenPresent
+Execution Started : getWhenPresent
+Execution Finished : getWhenPresent
+Execution Started : putWhenAbsent
+Execution Finished : putWhenAbsent
+Execution Started : removeValueCantBeNull
+Execution Finished : removeValueCantBeNull
+Execution Started : getWhenAbsent
+Execution Finished : getWhenAbsent
+Execution Started : getKeyCantBeNull
+Execution Finished : getKeyCantBeNull
+Execution Started : putGetRemoveIsConstantWhenBelowCapacity
+[DEBUG] 2020-11-17 10:20:35.745 [Time-limited test] ProfessorIntegerLRUCacheTest putGetRemoveIsConstantWhenBelowCapacity - ratio (n=128) = Infinity
+[DEBUG] 2020-11-17 10:20:35.753 [Time-limited test] ProfessorIntegerLRUCacheTest putGetRemoveIsConstantWhenBelowCapacity - ratio (n=2048) = 2.0
+[DEBUG] 2020-11-17 10:20:35.758 [Time-limited test] ProfessorIntegerLRUCacheTest putGetRemoveIsConstantWhenBelowCapacity - ratio (n=4096) = 2.5
+[DEBUG] 2020-11-17 10:20:35.767 [Time-limited test] ProfessorIntegerLRUCacheTest putGetRemoveIsConstantWhenBelowCapacity - ratio (n=8192) = 1.6
+[DEBUG] 2020-11-17 10:20:35.780 [Time-limited test] ProfessorIntegerLRUCacheTest putGetRemoveIsConstantWhenBelowCapacity - ratio (n=16384) = 1.5
+[DEBUG] 2020-11-17 10:20:35.803 [Time-limited test] ProfessorIntegerLRUCacheTest putGetRemoveIsConstantWhenBelowCapacity - ratio (n=32768) = 1.9166666666666667
+[DEBUG] 2020-11-17 10:20:35.841 [Time-limited test] ProfessorIntegerLRUCacheTest putGetRemoveIsConstantWhenBelowCapacity - ratio (n=65536) = 1.608695652173913
+[DEBUG] 2020-11-17 10:20:35.902 [Time-limited test] ProfessorIntegerLRUCacheTest putGetRemoveIsConstantWhenBelowCapacity - ratio (n=131072) = 1.6216216216216217
+[DEBUG] 2020-11-17 10:20:36.012 [Time-limited test] ProfessorIntegerLRUCacheTest putGetRemoveIsConstantWhenBelowCapacity - ratio (n=262144) = 1.8166666666666667
+[DEBUG] 2020-11-17 10:20:36.133 [Time-limited test] ProfessorIntegerLRUCacheTest putGetRemoveIsConstantWhenBelowCapacity - ratio (n=524288) = 1.1009174311926606
+[DEBUG] 2020-11-17 10:20:36.456 [Time-limited test] ProfessorIntegerLRUCacheTest putGetRemoveIsConstantWhenBelowCapacity - ratio (n=1048576) = 2.691666666666667
+[DEBUG] 2020-11-17 10:20:37.250 [Time-limited test] ProfessorIntegerLRUCacheTest putGetRemoveIsConstantWhenBelowCapacity - ratio (n=2097152) = 2.4520123839009287
+[DEBUG] 2020-11-17 10:20:38.830 [Time-limited test] ProfessorIntegerLRUCacheTest putGetRemoveIsConstantWhenBelowCapacity - ratio (n=4194304) = 1.994949494949495
+Execution Failure : org.junit.runners.model.TestTimedOutException: test timed out after 5000 milliseconds
+Execution Finished : putGetRemoveIsConstantWhenBelowCapacity
+Execution Started : removeWhenAbsent
+Execution Finished : removeWhenAbsent
+Execution Started : LRUTest
+Execution Finished : LRUTest
+Execution Started : removeKeyCantBeNull
+Execution Finished : removeKeyCantBeNull
+Execution Started : putGetIsConstantWhenAboveCapacity
+[DEBUG] 2020-11-17 10:20:40.805 [Time-limited test] ProfessorIntegerLRUCacheTest putGetIsConstantWhenAboveCapacity - ratio (n=4096) = Infinity
+[DEBUG] 2020-11-17 10:20:40.815 [Time-limited test] ProfessorIntegerLRUCacheTest putGetIsConstantWhenAboveCapacity - ratio (n=8192) = 2.0
+[DEBUG] 2020-11-17 10:20:40.823 [Time-limited test] ProfessorIntegerLRUCacheTest putGetIsConstantWhenAboveCapacity - ratio (n=16384) = 1.75
+[DEBUG] 2020-11-17 10:20:40.838 [Time-limited test] ProfessorIntegerLRUCacheTest putGetIsConstantWhenAboveCapacity - ratio (n=32768) = 2.0
+[DEBUG] 2020-11-17 10:20:40.854 [Time-limited test] ProfessorIntegerLRUCacheTest putGetIsConstantWhenAboveCapacity - ratio (n=65536) = 1.1428571428571428
+[DEBUG] 2020-11-17 10:20:40.880 [Time-limited test] ProfessorIntegerLRUCacheTest putGetIsConstantWhenAboveCapacity - ratio (n=131072) = 1.5625
+[DEBUG] 2020-11-17 10:20:40.940 [Time-limited test] ProfessorIntegerLRUCacheTest putGetIsConstantWhenAboveCapacity - ratio (n=262144) = 2.36
+[DEBUG] 2020-11-17 10:20:41.201 [Time-limited test] ProfessorIntegerLRUCacheTest putGetIsConstantWhenAboveCapacity - ratio (n=524288) = 4.423728813559322
+Execution Failure : java.lang.AssertionError: Performance should be O(n), but for n=524288 observed doubling ratio of 4.423728813559322
+Execution Finished : putGetIsConstantWhenAboveCapacity
+Execution Started : removeWhenPresent
+Execution Finished : removeWhenPresent
+[ERROR] Tests run: 13, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 5.781 s <<< FAILURE! - in edu.yu.introtoalgs.test.ProfessorIntegerLRUCacheTest
+[ERROR] edu.yu.introtoalgs.test.ProfessorIntegerLRUCacheTest.putGetRemoveIsConstantWhenBelowCapacity  Time elapsed: 5.076 s  <<< ERROR!
+org.junit.runners.model.TestTimedOutException: test timed out after 5000 milliseconds
+	at app//edu.yu.introtoalgs.test.ProfessorIntegerLRUCacheTest.putGetRemoveIsConstantWhenBelowCapacity(ProfessorIntegerLRUCacheTest.java:125)
+
+[ERROR] edu.yu.introtoalgs.test.ProfessorIntegerLRUCacheTest.putGetIsConstantWhenAboveCapacity  Time elapsed: 0.399 s  <<< FAILURE!
+java.lang.AssertionError: Performance should be O(n), but for n=524288 observed doubling ratio of 4.423728813559322
+	at edu.yu.introtoalgs.test.ProfessorIntegerLRUCacheTest.putGetIsConstantWhenAboveCapacity(ProfessorIntegerLRUCacheTest.java:209)
+
+Test cases executed : 13
+[ERROR] Failures: 
+[ERROR]   ProfessorIntegerLRUCacheTest.putGetIsConstantWhenAboveCapacity:209 Performance should be O(n), but for n=524288 observed doubling ratio of 4.423728813559322
+[ERROR] Errors: 
+[ERROR]   ProfessorIntegerLRUCacheTest.putGetRemoveIsConstantWhenBelowCapacity:125 » TestTimedOut
+[ERROR] Tests run: 13, Failures: 1, Errors: 1, Skipped: 0
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M5:test (default-test) on project IntegerLRUCache: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /Users/avraham/YUGitRepos/2545/SoclofEthan/IntroToAlgorithms/assignments/IntegerLRUCache/target/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Problem invoking 'maven test target': aborting this run

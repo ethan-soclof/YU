@@ -1,0 +1,65 @@
+Assignment DrillComparingOrdersOfGrowth-1 [SoclofEthan]: 8.25/10
+
+You didn't name the directory correctly, not taking off this time, but ....
+
+Section 2: Ordering Running Times
+
+1. n^2 
+
+2. n^3 
+
+3. 100n^2 
+
+4. n log n
+
+5. 2^n   
+
+How much slower (in terms of a "factor relative to the previous input size") do
+each of these algorithms get when you double the input size?
+
+1)
+2)
+3)
+4)X ("slows by a factor of approximately 2" is not precise enough, "2+2n" is more precise), -0.25
+5)X
+
+          
+How much slower (in terms of a "factor relative to the previous input size") do
+each of these algorithms get when you increase the input size by 1?
+
+You supplied "factor of 1" for the first 4 questions below: this is
+incorrect (hint: additive factors of "n" appear in the answer) or at
+least too imprecise.  I didn't ask for limits!  
+
+1)X (2n +1)
+2)X
+3)X
+4)X
+5)
+
+Section 3:  Really Understanding Order-of-Growth
+
+Suppose you have a computer that can perform 10^10 operations per second, and
+you need to compute a result in at most an hour of computation. For each of the
+algorithms, what is the largest input size n for which you would be able to get
+the result within an hour
+
+1. n^2 
+
+2. n^3 
+
+3. 100n^2 
+
+4. n log n
+
+5. 2^n 
+
+6. 2^{2n}
+
+  
+1)
+2)
+3)
+4)
+5)
+6)

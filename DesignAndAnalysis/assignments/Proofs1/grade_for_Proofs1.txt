@@ -1,0 +1,18 @@
+Assignment Proofs1 [SoclofEthan]: 8.5/10
+Pulled files on Wed Jan 27 10:13:14 EST 2021
+Latest commit of student files ....
+Latest commit of DesignAndAnalysis/assignments/Proofs1/Proofs1.pdf was on: Tue Jan 26 23:29:58 2021
+Graph Properties
+
+-1.5: you state that there is a range of 0..v-1 possibilities, but that
+ mean *v* possibilities which moots your use of the pigeonhole
+ principle!
+
+Probability ("Coin Flipping") Properties
+
+good work.  meta-point: this "Analyze ﬂips in sets of 2 ﬂips. If a set
+of 2 ﬂip results contains both a 0 and a 1 (as opposed to 0 and 0, or
+1 and 1), add the ﬁrst ﬂip result of that set to the ﬁnal result" is
+(almost) the algorithm, and more clear than the pseudo-code you
+present which i think is more low-level than it needs to be (because
+it gets in the way of grasping the core idea of "pair flips").

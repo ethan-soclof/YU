@@ -1,0 +1,96 @@
+Grade for assignment [SoclofEthan]: 9/10
+
+very good work on performance, -1.0 on correctness test.
+
+
+Pulled files on Tue Dec  8 10:17:45 EST 2020
+Latest commit of student files ....
+Latest commit of src/main/java/edu/yu/introtoalgs/GraphsAndMazes.java was on: Tue Dec 8 09:13:43 2020
+building Student SoclofEthan assignment code base from directory /Users/avraham/YUGitRepos/2545/SoclofEthan/IntroToAlgorithms/assignments/GraphsAndMazes
+Picked up JAVA_TOOL_OPTIONS: -Xms4096m -Xmx15G -XX:MaxMetaspaceSize=1G
+Copying Professor's JUnit source files in /Users/avraham/YUTeaching/IntroToAlgorithms/assignments/GraphsAndMazes/src/test to Student SoclofEthan directory tree in /Users/avraham/YUGitRepos/2545/SoclofEthan/IntroToAlgorithms/assignments/GraphsAndMazes/src
+executing Professor's test code against Student SoclofEthan code
+Picked up JAVA_TOOL_OPTIONS: -Xms4096m -Xmx15G -XX:MaxMetaspaceSize=1G
+[ERROR] Picked up JAVA_TOOL_OPTIONS: -Xms4096m -Xmx15G -XX:MaxMetaspaceSize=1G
+Test cases to execute : 1
+Execution Started : minimalRectangularMaze
+Execution Failure : java.lang.IllegalArgumentException: Out of bounds
+Execution Finished : minimalRectangularMaze
+Execution Started : performanceTest
+At n=32, test duration is now ' 0.00' ms
+[DEBUG] 2020-12-08 10:17:49.569 [Time-limited test] ProfessorGraphsAndMazesTest performanceTest - Effective problem-size (V+E=     7,220, n=     38), Effective problem-size ratio= 1.50 Performance ratio=  NaN 
+At n=38, test duration is now ' 0.00' ms
+[DEBUG] 2020-12-08 10:17:49.571 [Time-limited test] ProfessorGraphsAndMazesTest performanceTest - Effective problem-size (V+E=    10,125, n=     45), Effective problem-size ratio= 1.56 Performance ratio=  NaN 
+At n=45, test duration is now ' 0.00' ms
+[DEBUG] 2020-12-08 10:17:49.571 [Time-limited test] ProfessorGraphsAndMazesTest performanceTest - Effective problem-size (V+E=    14,580, n=     54), Effective problem-size ratio= 1.51 Performance ratio=  NaN 
+At n=54, test duration is now ' 0.00' ms
+[DEBUG] 2020-12-08 10:17:49.572 [Time-limited test] ProfessorGraphsAndMazesTest performanceTest - Effective problem-size (V+E=    20,480, n=     64), Effective problem-size ratio= 1.51 Performance ratio=  NaN 
+At n=64, test duration is now ' 0.00' ms
+[DEBUG] 2020-12-08 10:17:49.573 [Time-limited test] ProfessorGraphsAndMazesTest performanceTest - Effective problem-size (V+E=    28,880, n=     76), Effective problem-size ratio= 1.55 Performance ratio=  NaN 
+At n=76, test duration is now ' 0.00' ms
+[DEBUG] 2020-12-08 10:17:49.574 [Time-limited test] ProfessorGraphsAndMazesTest performanceTest - Effective problem-size (V+E=    41,405, n=     91), Effective problem-size ratio= 1.55 Performance ratio=  NaN 
+At n=91, test duration is now ' 0.00' ms
+[DEBUG] 2020-12-08 10:17:49.574 [Time-limited test] ProfessorGraphsAndMazesTest performanceTest - Effective problem-size (V+E=    59,405, n=    109), Effective problem-size ratio= 1.53 Performance ratio=  NaN 
+At n=109, test duration is now ' 0.00' ms
+[DEBUG] 2020-12-08 10:17:49.575 [Time-limited test] ProfessorGraphsAndMazesTest performanceTest - Effective problem-size (V+E=    84,500, n=    130), Effective problem-size ratio= 1.56 Performance ratio=  NaN 
+At n=130, test duration is now ' 0.00' ms
+[DEBUG] 2020-12-08 10:17:49.576 [Time-limited test] ProfessorGraphsAndMazesTest performanceTest - Effective problem-size (V+E=   121,680, n=    156), Effective problem-size ratio= 1.56 Performance ratio=  NaN 
+At n=156, test duration is now ' 0.00' ms
+[DEBUG] 2020-12-08 10:17:49.578 [Time-limited test] ProfessorGraphsAndMazesTest performanceTest - Effective problem-size (V+E=   174,845, n=    187), Effective problem-size ratio= 1.55 Performance ratio=  NaN 
+At n=187, test duration is now ' 0.00' ms
+[DEBUG] 2020-12-08 10:17:49.579 [Time-limited test] ProfessorGraphsAndMazesTest performanceTest - Effective problem-size (V+E=   250,880, n=    224), Effective problem-size ratio= 1.55 Performance ratio=  NaN 
+At n=224, test duration is now ' 0.00' ms
+[DEBUG] 2020-12-08 10:17:49.581 [Time-limited test] ProfessorGraphsAndMazesTest performanceTest - Effective problem-size (V+E=   359,120, n=    268), Effective problem-size ratio= 1.55 Performance ratio=  NaN 
+At n=268, test duration is now ' 0.00' ms
+[DEBUG] 2020-12-08 10:17:49.582 [Time-limited test] ProfessorGraphsAndMazesTest performanceTest - Effective problem-size (V+E=   515,205, n=    321), Effective problem-size ratio= 1.56 Performance ratio=  NaN 
+At n=321, test duration is now ' 0.00' ms
+[DEBUG] 2020-12-08 10:17:49.585 [Time-limited test] ProfessorGraphsAndMazesTest performanceTest - Effective problem-size (V+E=   741,125, n=    385), Effective problem-size ratio= 1.56 Performance ratio=  NaN 
+At n=385, test duration is now ' 0.00' ms
+[DEBUG] 2020-12-08 10:17:49.588 [Time-limited test] ProfessorGraphsAndMazesTest performanceTest - Effective problem-size (V+E= 1,067,220, n=    462), Effective problem-size ratio= 1.56 Performance ratio=  NaN 
+At n=462, test duration is now ' 0.00' ms
+[DEBUG] 2020-12-08 10:17:49.592 [Time-limited test] ProfessorGraphsAndMazesTest performanceTest - Effective problem-size (V+E= 1,534,580, n=    554), Effective problem-size ratio= 1.56 Performance ratio=  NaN 
+At n=554, test duration is now ' 0.00' ms
+[DEBUG] 2020-12-08 10:17:49.596 [Time-limited test] ProfessorGraphsAndMazesTest performanceTest - Effective problem-size (V+E= 2,204,480, n=    664), Effective problem-size ratio= 1.56 Performance ratio=  NaN 
+At n=664, test duration is now ' 0.00' ms
+[DEBUG] 2020-12-08 10:17:49.605 [Time-limited test] ProfessorGraphsAndMazesTest performanceTest - Effective problem-size (V+E= 3,168,080, n=    796), Effective problem-size ratio= 1.56 Performance ratio=Infinity 
+At n=796, test duration is now ' 1.00' ms
+[DEBUG] 2020-12-08 10:17:49.615 [Time-limited test] ProfessorGraphsAndMazesTest performanceTest - Effective problem-size (V+E= 4,560,125, n=    955), Effective problem-size ratio= 1.56 Performance ratio= 1.00 
+At n=955, test duration is now ' 2.00' ms
+[DEBUG] 2020-12-08 10:17:49.627 [Time-limited test] ProfessorGraphsAndMazesTest performanceTest - Effective problem-size (V+E= 6,566,580, n=  1,146), Effective problem-size ratio= 1.56 Performance ratio= 2.00 
+At n=1,146, test duration is now ' 4.00' ms
+[DEBUG] 2020-12-08 10:17:49.635 [Time-limited test] ProfessorGraphsAndMazesTest performanceTest - Effective problem-size (V+E= 9,453,125, n=  1,375), Effective problem-size ratio= 1.56 Performance ratio= 1.50 
+At n=1,375, test duration is now ' 7.00' ms
+[INFO ] 2020-12-08 10:17:49.635 [Time-limited test] ProfessorGraphsAndMazesTest performanceTest - Total test duration (including initialization etc):  7.00
+Execution Finished : performanceTest
+Execution Started : test2HasPath
+Execution Finished : test2HasPath
+Execution Started : minimalPath
+[INFO ] 2020-12-08 10:17:49.646 [main] ProfessorGraphsAndMazesTest minimalPath - Path through maze: [(2,0)]
+Execution Finished : minimalPath
+Execution Started : test1HasAPath
+Execution Finished : test1HasAPath
+Execution Started : minimalSquareMaze
+Execution Finished : minimalSquareMaze
+Execution Started : test1TweakedNoPath
+Execution Finished : test1TweakedNoPath
+[ERROR] Tests run: 7, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.378 s <<< FAILURE! - in edu.yu.introtoalgs.test.ProfessorGraphsAndMazesTest
+[ERROR] edu.yu.introtoalgs.test.ProfessorGraphsAndMazesTest.minimalRectangularMaze  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.IllegalArgumentException: Out of bounds
+	at edu.yu.introtoalgs.test.ProfessorGraphsAndMazesTest.minimalRectangularMaze(ProfessorGraphsAndMazesTest.java:99)
+
+Test cases executed : 7
+[ERROR] Errors: 
+[ERROR]   ProfessorGraphsAndMazesTest.minimalRectangularMaze:99 » IllegalArgument Out of...
+[ERROR] Tests run: 7, Failures: 0, Errors: 1, Skipped: 0
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M5:test (default-test) on project GraphsAndMazes: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /Users/avraham/YUGitRepos/2545/SoclofEthan/IntroToAlgorithms/assignments/GraphsAndMazes/target/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Problem invoking 'maven test target': aborting this run

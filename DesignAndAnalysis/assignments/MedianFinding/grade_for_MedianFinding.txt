@@ -1,0 +1,225 @@
+Grade for assignment [SoclofEthan]: 8/10
+
+BEFORE you freak out on the grade -- fix the compilation bug (ONLY
+THAT ISSUE), and I'll reevaluate the grade for the coding portion of
+this assignment with reduced penalty.  You have about a day to do this
+and ask for a regrade.
+
+
+very good work on the first half of the assignment, i especially liked
+your approach to proving correctness in terms of four sets.
+
+Eitan -- i really don't like to give a code grade based on "not
+compiling" but no choice here.  i looked at your code, and don't see
+how could it compile even for you!
+
+
+
+
+Pulled files on Fri Feb 12 10:09:51 EST 2021
+Latest commit of student files ....
+Latest commit of src/main/java/edu/yu/da/Test.java was on: Fri Feb 12 07:32:50 2021
+Latest commit of src/main/java/edu/yu/da/MedianFinding.java was on: Fri Feb 12 07:32:50 2021
+building Student SoclofEthan assignment code base from directory /Users/avraham/YUGitRepos/2546/SoclofEthan/DesignAndAnalysis/assignments/MedianFinding
+Picked up JAVA_TOOL_OPTIONS: -Xms4096m -Xmx15G -XX:MaxMetaspaceSize=1G
+[ERROR] COMPILATION ERROR : 
+[ERROR] /Users/avraham/YUGitRepos/2546/SoclofEthan/DesignAndAnalysis/assignments/MedianFinding/src/main/java/edu/yu/da/MedianFinding.java:[47,15] cannot find symbol
+  symbol: method income()
+[ERROR] /Users/avraham/YUGitRepos/2546/SoclofEthan/DesignAndAnalysis/assignments/MedianFinding/src/main/java/edu/yu/da/MedianFinding.java:[47,31] cannot find symbol
+  symbol:   method income()
+  location: variable that of type edu.yu.da.MedianFinding.Account
+[ERROR] /Users/avraham/YUGitRepos/2546/SoclofEthan/DesignAndAnalysis/assignments/MedianFinding/src/main/java/edu/yu/da/MedianFinding.java:[50,15] cannot find symbol
+  symbol: method income()
+[ERROR] /Users/avraham/YUGitRepos/2546/SoclofEthan/DesignAndAnalysis/assignments/MedianFinding/src/main/java/edu/yu/da/MedianFinding.java:[50,31] cannot find symbol
+  symbol:   method income()
+  location: variable that of type edu.yu.da.MedianFinding.Account
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile (default-compile) on project MedianFinding: Compilation failure: Compilation failure: 
+[ERROR] /Users/avraham/YUGitRepos/2546/SoclofEthan/DesignAndAnalysis/assignments/MedianFinding/src/main/java/edu/yu/da/MedianFinding.java:[47,15] cannot find symbol
+[ERROR]   symbol: method income()
+[ERROR] /Users/avraham/YUGitRepos/2546/SoclofEthan/DesignAndAnalysis/assignments/MedianFinding/src/main/java/edu/yu/da/MedianFinding.java:[47,31] cannot find symbol
+[ERROR]   symbol:   method income()
+[ERROR]   location: variable that of type edu.yu.da.MedianFinding.Account
+[ERROR] /Users/avraham/YUGitRepos/2546/SoclofEthan/DesignAndAnalysis/assignments/MedianFinding/src/main/java/edu/yu/da/MedianFinding.java:[50,15] cannot find symbol
+[ERROR]   symbol: method income()
+[ERROR] /Users/avraham/YUGitRepos/2546/SoclofEthan/DesignAndAnalysis/assignments/MedianFinding/src/main/java/edu/yu/da/MedianFinding.java:[50,31] cannot find symbol
+[ERROR]   symbol:   method income()
+[ERROR]   location: variable that of type edu.yu.da.MedianFinding.Account
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Problem invoking 'maven compile': aborting this run
+
+1. (5%): A paragraph explaining why vanilla binary search cannot be used to
+solve this problem.
+
+2. (5%): A paragraph describing the core idea in your algorithm: how will your
+algorithm address the fact that vanilla binary search cannot be used to solve
+the problem?
+
+3. (40%): A pseudo-code description of your algorithm in terms of the problem deﬁnition.
+
+• As discussed in lecture: your description should neither be expressed as
+  (low-level) code (that’s the programming part) nor expressed as (high-level)
+  English (that’s the job of your ﬁrst two paragraphs!).
+
+• You must describe the algorithm “crisply” and in terms that enable you to
+  specify a recurrence relation for Q(n). The recurrence must use precise
+  notation that matches your algorithm description.
+
+• Show (using any technique discussed in class) that your recurrence relation
+  satisﬁes the performance requirements.
+
+• Supply a proof that your algorithm is correct: more speciﬁcally, that the
+  eventual answer is in fact the median value of the 2n numerical values from
+  the two databases.
+
+The remaining 50% of the grade for this assignment is based on the programming
+portion of this assignment
+
+  
+take #2
+
+ok: passes performance test, fails two correctness tests (possibly
+because of failure to override hashCode and equals per exhaustive
+discussion last semester).
+
+deducting for these errors plus take #1 errors
+
+please note that I may not waive the basic requirements in future
+assignments.
+
+commit a820f37ff567067f335bf1162e6487a203e57a00
+Author: Etan Soclof <soclof@mail.yu.edu>
+Date:   Mon Feb 22 17:48:10 2021 -0500
+
+    correction
+
+diff --git a/DesignAndAnalysis/assignments/MedianFinding/src/main/java/edu/yu/da/MedianFinding.java b/DesignAndAnalysis/assignments/MedianFinding/src/main/java/edu/yu/da/MedianFinding.java
+index 5d20d88..e4db62f 100644
+--- a/DesignAndAnalysis/assignments/MedianFinding/src/main/java/edu/yu/da/MedianFinding.java
++++ b/DesignAndAnalysis/assignments/MedianFinding/src/main/java/edu/yu/da/MedianFinding.java
+@@ -8,9 +8,6 @@ package edu.yu.da;
+ import org.apache.logging.log4j.LogManager;
+ import org.apache.logging.log4j.Logger;
+ 
+-import java.util.ArrayList;
+-import java.util.Collections;
+-
+ public class MedianFinding {
+   /*
+   public static void main(String[] args) {
+@@ -29,7 +26,7 @@ public class MedianFinding {
+     Account[] set2 = {a2, a4, a6, a8};
+     System.out.println(findMedian(set1, set2).getIncome());
+   }
+-  */
++   */
+ 
+   /** Immutable account class for pedagogic purposes only since it's not very
+    * useful.
+@@ -44,10 +41,10 @@ public class MedianFinding {
+     public double getIncome() { return income; }
+ 
+     public int compareTo(final Account that) {
+-      if (this.income() > that.income()){
++      if (this.getIncome() > that.getIncome()){
+         return 1;
+       } 
+-      if (this.income() < that.income()){
++      if (this.getIncome() < that.getIncome()){
+         return -1;
+       } 
+       return 0;
+
+
+Pulled files on Tue Feb 23 18:40:35 EST 2021
+Latest commit of student files ....
+Latest commit of src/main/java/edu/yu/da/MedianFinding.java was on: Mon Feb 22 17:48:10 2021
+building Student SoclofEthan assignment code base from directory /Users/avraham/YUGitRepos/2546/SoclofEthan/DesignAndAnalysis/assignments/MedianFinding
+Picked up JAVA_TOOL_OPTIONS: -Xms4096m -Xmx15G -XX:MaxMetaspaceSize=1G
+Copying Professor's JUnit source files in /Users/avraham/YUTeaching/DesignAndAnalysis/assignments/MedianFinding/src/test to Student SoclofEthan directory tree in /Users/avraham/YUGitRepos/2546/SoclofEthan/DesignAndAnalysis/assignments/MedianFinding/src
+executing Professor's test code against Student SoclofEthan code
+Picked up JAVA_TOOL_OPTIONS: -Xms4096m -Xmx15G -XX:MaxMetaspaceSize=1G
+[ERROR] Picked up JAVA_TOOL_OPTIONS: -Xms4096m -Xmx15G -XX:MaxMetaspaceSize=1G
+Test cases to execute : 1
+Execution Started : medianOfTwoContiguousOddArrays
+[INFO ] 2021-02-23 18:40:39.686 [main] ProfessorMedianFindingTest medianOfTwoContiguousOddArrays - Median account edu.yu.da.MedianFinding$Account@6e005dc9 is located in set1[4] over a range of values 1..10
+[INFO ] 2021-02-23 18:40:39.689 [main] ProfessorMedianFindingTest medianOfTwoContiguousOddArrays - Found median edu.yu.da.MedianFinding$Account@3af0a9da
+Execution Failure : java.lang.AssertionError: Incorrect median Account returned expected:<edu.yu.da.MedianFinding$Account@6e005dc9> but was:<edu.yu.da.MedianFinding$Account@3af0a9da>
+Execution Finished : medianOfTwoContiguousOddArrays
+Execution Started : medianOfTwoInterleavedArrays
+[INFO ] 2021-02-23 18:40:39.692 [main] ProfessorMedianFindingTest medianOfTwoInterleavedArrays - Creating two account arrays with interleaved odd and even income values
+[INFO ] 2021-02-23 18:40:39.693 [main] ProfessorMedianFindingTest medianOfTwoInterleavedArrays - Median account edu.yu.da.MedianFinding$Account@7922d892 is located in set1[3] over a range of values 1..6
+Execution Finished : medianOfTwoInterleavedArrays
+Execution Started : performanceTest
+[DEBUG] 2021-02-23 18:40:39.693 [main] ProfessorMedianFindingTest performanceTest - n (size of each database): 6144000
+[INFO ] 2021-02-23 18:40:39.978 [main] ProfessorMedianFindingTest performanceTest - Median account edu.yu.da.MedianFinding$Account@457c9034 is located in set2[3071999] over a range of values 1..12288000
+[DEBUG] 2021-02-23 18:40:39.979 [main] ProfessorMedianFindingTest performanceTest - start@1614123639979
+[DEBUG] 2021-02-23 18:40:39.979 [main] ProfessorMedianFindingTest performanceTest - end@1614123639979
+[DEBUG] 2021-02-23 18:40:39.979 [main] ProfessorMedianFindingTest performanceTest - current=0.0
+At n=6,144,000, test duration is now ' 0.00' ms, ratio= 0.00
+[INFO ] 2021-02-23 18:40:39.980 [main] ProfessorMedianFindingTest performanceTest - Total test duration (including initialization etc): 287
+[DEBUG] 2021-02-23 18:40:39.980 [main] ProfessorMedianFindingTest performanceTest - n (size of each database): 12288000
+[INFO ] 2021-02-23 18:40:40.458 [main] ProfessorMedianFindingTest performanceTest - Median account edu.yu.da.MedianFinding$Account@36a5cabc is located in set2[6143999] over a range of values 1..24576000
+[DEBUG] 2021-02-23 18:40:40.459 [main] ProfessorMedianFindingTest performanceTest - start@1614123640459
+[DEBUG] 2021-02-23 18:40:40.459 [main] ProfessorMedianFindingTest performanceTest - end@1614123640459
+[DEBUG] 2021-02-23 18:40:40.459 [main] ProfessorMedianFindingTest performanceTest - current=0.0
+At n=12,288,000, test duration is now ' 0.00' ms, ratio= 0.00
+[INFO ] 2021-02-23 18:40:40.460 [main] ProfessorMedianFindingTest performanceTest - Total test duration (including initialization etc): 767
+[DEBUG] 2021-02-23 18:40:40.460 [main] ProfessorMedianFindingTest performanceTest - n (size of each database): 24576000
+[INFO ] 2021-02-23 18:40:41.614 [main] ProfessorMedianFindingTest performanceTest - Median account edu.yu.da.MedianFinding$Account@432038ec is located in set2[12287999] over a range of values 1..49152000
+[DEBUG] 2021-02-23 18:40:41.614 [main] ProfessorMedianFindingTest performanceTest - start@1614123641614
+[DEBUG] 2021-02-23 18:40:41.614 [main] ProfessorMedianFindingTest performanceTest - end@1614123641614
+[DEBUG] 2021-02-23 18:40:41.614 [main] ProfessorMedianFindingTest performanceTest - current=0.0
+At n=24,576,000, test duration is now ' 0.00' ms, ratio= 0.00
+[INFO ] 2021-02-23 18:40:41.615 [main] ProfessorMedianFindingTest performanceTest - Total test duration (including initialization etc): 1,922
+[DEBUG] 2021-02-23 18:40:41.615 [main] ProfessorMedianFindingTest performanceTest - n (size of each database): 49152000
+[INFO ] 2021-02-23 18:40:43.774 [main] ProfessorMedianFindingTest performanceTest - Median account edu.yu.da.MedianFinding$Account@7daa0fbd is located in set2[24575999] over a range of values 1..98304000
+[DEBUG] 2021-02-23 18:40:43.774 [main] ProfessorMedianFindingTest performanceTest - start@1614123643774
+[DEBUG] 2021-02-23 18:40:43.774 [main] ProfessorMedianFindingTest performanceTest - end@1614123643774
+[DEBUG] 2021-02-23 18:40:43.774 [main] ProfessorMedianFindingTest performanceTest - current=0.0
+At n=49,152,000, test duration is now ' 0.00' ms, ratio= 0.00
+[INFO ] 2021-02-23 18:40:43.775 [main] ProfessorMedianFindingTest performanceTest - Total test duration (including initialization etc): 4,082
+[DEBUG] 2021-02-23 18:40:43.775 [main] ProfessorMedianFindingTest performanceTest - n (size of each database): 98304000
+[INFO ] 2021-02-23 18:40:47.976 [main] ProfessorMedianFindingTest performanceTest - Median account edu.yu.da.MedianFinding$Account@42530531 is located in set2[49151999] over a range of values 1..196608000
+[DEBUG] 2021-02-23 18:40:47.976 [main] ProfessorMedianFindingTest performanceTest - start@1614123647976
+[DEBUG] 2021-02-23 18:40:47.976 [main] ProfessorMedianFindingTest performanceTest - end@1614123647976
+[DEBUG] 2021-02-23 18:40:47.977 [main] ProfessorMedianFindingTest performanceTest - current=0.0
+At n=98,304,000, test duration is now ' 0.00' ms, ratio= 0.00
+[INFO ] 2021-02-23 18:40:47.977 [main] ProfessorMedianFindingTest performanceTest - Total test duration (including initialization etc): 8,284
+[INFO ] 2021-02-23 18:40:47.977 [main] ProfessorMedianFindingTest performanceTest - Total test duration (including initialization) in ms: 8284
+Execution Finished : performanceTest
+Execution Started : medianOfTwoContiguousEvenArrays
+[INFO ] 2021-02-23 18:40:47.978 [main] ProfessorMedianFindingTest medianOfTwoContiguousEvenArrays - Median account edu.yu.da.MedianFinding$Account@5a3bc7ed is located in set1[3] over a range of values 1..8
+Execution Failure : java.lang.AssertionError: Incorrect median Account returned expected:<edu.yu.da.MedianFinding$Account@5a3bc7ed> but was:<edu.yu.da.MedianFinding$Account@181e731e>
+Execution Finished : medianOfTwoContiguousEvenArrays
+[ERROR] Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 8.645 s <<< FAILURE! - in edu.yu.da.test.ProfessorMedianFindingTest
+[ERROR] edu.yu.da.test.ProfessorMedianFindingTest.medianOfTwoContiguousOddArrays  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError: Incorrect median Account returned expected:<edu.yu.da.MedianFinding$Account@6e005dc9> but was:<edu.yu.da.MedianFinding$Account@3af0a9da>
+	at edu.yu.da.test.ProfessorMedianFindingTest.medianOfTwoContiguousOddArrays(ProfessorMedianFindingTest.java:71)
+
+[ERROR] edu.yu.da.test.ProfessorMedianFindingTest.medianOfTwoContiguousEvenArrays  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: Incorrect median Account returned expected:<edu.yu.da.MedianFinding$Account@5a3bc7ed> but was:<edu.yu.da.MedianFinding$Account@181e731e>
+	at edu.yu.da.test.ProfessorMedianFindingTest.medianOfTwoContiguousEvenArrays(ProfessorMedianFindingTest.java:90)
+
+Test cases executed : 4
+[ERROR] Failures: 
+[ERROR]   ProfessorMedianFindingTest.medianOfTwoContiguousEvenArrays:90 Incorrect median Account returned expected:<edu.yu.da.MedianFinding$Account@5a3bc7ed> but was:<edu.yu.da.MedianFinding$Account@181e731e>
+[ERROR]   ProfessorMedianFindingTest.medianOfTwoContiguousOddArrays:71 Incorrect median Account returned expected:<edu.yu.da.MedianFinding$Account@6e005dc9> but was:<edu.yu.da.MedianFinding$Account@3af0a9da>
+[ERROR] Tests run: 4, Failures: 2, Errors: 0, Skipped: 0
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M5:test (default-test) on project MedianFinding: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /Users/avraham/YUGitRepos/2546/SoclofEthan/DesignAndAnalysis/assignments/MedianFinding/target/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Problem invoking 'maven test target': aborting this run

@@ -1,0 +1,148 @@
+Grade for assignment [SoclofEthan]: 8/10
+
+Looks like you omitted (at least) one required API: keyOf.  I don't
+generally do this, but if you fix ONLY THIS ISSUE really quickly, I'll
+consider a regrade-with-penalty.  Let me know ASAP!
+
+
+Pulled files on Fri Dec 25 12:46:42 EST 2020
+Latest commit of student files ....
+Latest commit of src/main/java/edu/yu/introtoalgs/IndexMinPQ.java was on: Fri Dec 25 09:03:19 2020
+building Student SoclofEthan assignment code base from directory /Users/avraham/YUGitRepos/2545/SoclofEthan/IntroToAlgorithms/assignments/IndexMinPQ
+Picked up JAVA_TOOL_OPTIONS: -Xms4096m -Xmx15G -XX:MaxMetaspaceSize=1G
+Copying Professor's JUnit source files in /Users/avraham/YUTeaching/IntroToAlgorithms/assignments/IndexMinPQ/src/test to Student SoclofEthan directory tree in /Users/avraham/YUGitRepos/2545/SoclofEthan/IntroToAlgorithms/assignments/IndexMinPQ/src
+executing Professor's test code against Student SoclofEthan code
+Picked up JAVA_TOOL_OPTIONS: -Xms4096m -Xmx15G -XX:MaxMetaspaceSize=1G
+[ERROR] COMPILATION ERROR : 
+[ERROR] /Users/avraham/YUGitRepos/2545/SoclofEthan/IntroToAlgorithms/assignments/IndexMinPQ/src/test/java/edu/yu/introtoalgs/test/ProfessorIndexMinPQTest.java:[100,29] cannot find symbol
+  symbol:   method keyOf(int)
+  location: variable indexMinPQ of type edu.yu.introtoalgs.IndexMinPQ<java.lang.String>
+[ERROR] /Users/avraham/YUGitRepos/2545/SoclofEthan/IntroToAlgorithms/assignments/IndexMinPQ/src/test/java/edu/yu/introtoalgs/test/ProfessorIndexMinPQTest.java:[101,35] cannot find symbol
+  symbol:   method keyOf(int)
+  location: variable indexMinPQ of type edu.yu.introtoalgs.IndexMinPQ<java.lang.String>
+[ERROR] /Users/avraham/YUGitRepos/2545/SoclofEthan/IntroToAlgorithms/assignments/IndexMinPQ/src/test/java/edu/yu/introtoalgs/test/ProfessorIndexMinPQTest.java:[203,29] cannot find symbol
+  symbol:   method keyOf(int)
+  location: variable indexMinPQ of type edu.yu.introtoalgs.IndexMinPQ<edu.yu.introtoalgs.test.ProfessorIndexMinPQTest.Item>
+[ERROR] /Users/avraham/YUGitRepos/2545/SoclofEthan/IntroToAlgorithms/assignments/IndexMinPQ/src/test/java/edu/yu/introtoalgs/test/ProfessorIndexMinPQTest.java:[204,33] cannot find symbol
+  symbol:   method keyOf(int)
+  location: variable indexMinPQ of type edu.yu.introtoalgs.IndexMinPQ<edu.yu.introtoalgs.test.ProfessorIndexMinPQTest.Item>
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.0:testCompile (default-testCompile) on project IndexMinPQ: Compilation failure: Compilation failure:
+[ERROR] /Users/avraham/YUGitRepos/2545/SoclofEthan/IntroToAlgorithms/assignments/IndexMinPQ/src/test/java/edu/yu/introtoalgs/test/ProfessorIndexMinPQTest.java:[100,29] cannot find symbol
+[ERROR] symbol:   method keyOf(int)
+[ERROR] location: variable indexMinPQ of type edu.yu.introtoalgs.IndexMinPQ<java.lang.String>
+[ERROR] /Users/avraham/YUGitRepos/2545/SoclofEthan/IntroToAlgorithms/assignments/IndexMinPQ/src/test/java/edu/yu/introtoalgs/test/ProfessorIndexMinPQTest.java:[101,35] cannot find symbol
+[ERROR] symbol:   method keyOf(int)
+[ERROR] location: variable indexMinPQ of type edu.yu.introtoalgs.IndexMinPQ<java.lang.String>
+[ERROR] /Users/avraham/YUGitRepos/2545/SoclofEthan/IntroToAlgorithms/assignments/IndexMinPQ/src/test/java/edu/yu/introtoalgs/test/ProfessorIndexMinPQTest.java:[203,29] cannot find symbol
+[ERROR] symbol:   method keyOf(int)
+[ERROR] location: variable indexMinPQ of type edu.yu.introtoalgs.IndexMinPQ<edu.yu.introtoalgs.test.ProfessorIndexMinPQTest.Item>
+[ERROR] /Users/avraham/YUGitRepos/2545/SoclofEthan/IntroToAlgorithms/assignments/IndexMinPQ/src/test/java/edu/yu/introtoalgs/test/ProfessorIndexMinPQTest.java:[204,33] cannot find symbol
+[ERROR] symbol:   method keyOf(int)
+[ERROR] location: variable indexMinPQ of type edu.yu.introtoalgs.IndexMinPQ<edu.yu.introtoalgs.test.ProfessorIndexMinPQTest.Item>
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Problem invoking 'maven test target': aborting this run
+
+take #2
+
+much better, penalty for take #1: 2 point (omitting an api)
+
+Pulled files on Mon Dec 28 12:50:02 EST 2020
+Latest commit of student files ....
+Latest commit of src/main/java/edu/yu/introtoalgs/IndexMinPQ.java was on: Sun Dec 27 15:33:01 2020
+building Student SoclofEthan assignment code base from directory /Users/avraham/YUGitRepos/2545/SoclofEthan/IntroToAlgorithms/assignments/IndexMinPQ
+Picked up JAVA_TOOL_OPTIONS: -Xms4096m -Xmx15G -XX:MaxMetaspaceSize=1G
+Copying Professor's JUnit source files in /Users/avraham/YUTeaching/IntroToAlgorithms/assignments/IndexMinPQ/src/test to Student SoclofEthan directory tree in /Users/avraham/YUGitRepos/2545/SoclofEthan/IntroToAlgorithms/assignments/IndexMinPQ/src
+executing Professor's test code against Student SoclofEthan code
+Picked up JAVA_TOOL_OPTIONS: -Xms4096m -Xmx15G -XX:MaxMetaspaceSize=1G
+[ERROR] Picked up JAVA_TOOL_OPTIONS: -Xms4096m -Xmx15G -XX:MaxMetaspaceSize=1G
+Test cases to execute : 1
+Execution Started : verifyDeleteMinWorks
+[INFO ] 2020-12-28 12:50:06.972 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Inserting these strings into an IndexMinPQ: [it, was, the, best, of, times, itt, wass, thee, worst]
+[INFO ] 2020-12-28 12:50:06.974 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Associating key <it> with index <0>
+[INFO ] 2020-12-28 12:50:06.974 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Associating key <was> with index <1>
+[INFO ] 2020-12-28 12:50:06.974 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Associating key <the> with index <2>
+[INFO ] 2020-12-28 12:50:06.974 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Associating key <best> with index <3>
+[INFO ] 2020-12-28 12:50:06.975 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Associating key <of> with index <4>
+[INFO ] 2020-12-28 12:50:06.975 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Associating key <times> with index <5>
+[INFO ] 2020-12-28 12:50:06.975 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Associating key <itt> with index <6>
+[INFO ] 2020-12-28 12:50:06.975 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Associating key <wass> with index <7>
+[INFO ] 2020-12-28 12:50:06.975 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Associating key <thee> with index <8>
+[INFO ] 2020-12-28 12:50:06.976 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Associating key <worst> with index <9>
+[INFO ] 2020-12-28 12:50:06.976 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Initialized new IndexMinPQ with this input: [it, was, the, best, of, times, itt, wass, thee, worst]
+Execution Finished : verifyDeleteMinWorks
+Execution Started : testMinimumness
+[INFO ] 2020-12-28 12:50:06.979 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Inserting these strings into an IndexMinPQ: [it, was, the, best, of, times, itt, wass, thee, worst]
+[INFO ] 2020-12-28 12:50:06.979 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Associating key <it> with index <0>
+[INFO ] 2020-12-28 12:50:06.979 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Associating key <was> with index <1>
+[INFO ] 2020-12-28 12:50:06.979 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Associating key <the> with index <2>
+[INFO ] 2020-12-28 12:50:06.980 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Associating key <best> with index <3>
+[INFO ] 2020-12-28 12:50:06.980 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Associating key <of> with index <4>
+[INFO ] 2020-12-28 12:50:06.980 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Associating key <times> with index <5>
+[INFO ] 2020-12-28 12:50:06.980 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Associating key <itt> with index <6>
+[INFO ] 2020-12-28 12:50:06.980 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Associating key <wass> with index <7>
+[INFO ] 2020-12-28 12:50:06.980 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Associating key <thee> with index <8>
+[INFO ] 2020-12-28 12:50:06.980 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Associating key <worst> with index <9>
+[INFO ] 2020-12-28 12:50:06.981 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Initialized new IndexMinPQ with this input: [it, was, the, best, of, times, itt, wass, thee, worst]
+[INFO ] 2020-12-28 12:50:06.981 [main] ProfessorIndexMinPQTest testMinimumness - Reporting about the IndexMinPQ instance
+[INFO ] 2020-12-28 12:50:06.981 [main] ProfessorIndexMinPQTest testMinimumness - minKey=best
+[INFO ] 2020-12-28 12:50:06.982 [main] ProfessorIndexMinPQTest testMinimumness - minIndex=3
+[INFO ] 2020-12-28 12:50:06.982 [main] ProfessorIndexMinPQTest testMinimumness - size=10
+[INFO ] 2020-12-28 12:50:06.982 [main] ProfessorIndexMinPQTest testMinimumness - isEmpty=false
+Execution Finished : testMinimumness
+Execution Started : testWithArbitraryComparable
+[INFO ] 2020-12-28 12:50:06.983 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Inserting these strings into an IndexMinPQ: [it, was, the, best, of, times, itt, wass, thee, worst]
+[INFO ] 2020-12-28 12:50:06.983 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Associating key <it> with index <0>
+[INFO ] 2020-12-28 12:50:06.983 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Associating key <was> with index <1>
+[INFO ] 2020-12-28 12:50:06.983 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Associating key <the> with index <2>
+[INFO ] 2020-12-28 12:50:06.983 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Associating key <best> with index <3>
+[INFO ] 2020-12-28 12:50:06.983 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Associating key <of> with index <4>
+[INFO ] 2020-12-28 12:50:06.984 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Associating key <times> with index <5>
+[INFO ] 2020-12-28 12:50:06.984 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Associating key <itt> with index <6>
+[INFO ] 2020-12-28 12:50:06.984 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Associating key <wass> with index <7>
+[INFO ] 2020-12-28 12:50:06.984 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Associating key <thee> with index <8>
+[INFO ] 2020-12-28 12:50:06.984 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Associating key <worst> with index <9>
+[INFO ] 2020-12-28 12:50:06.984 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Initialized new IndexMinPQ with this input: [it, was, the, best, of, times, itt, wass, thee, worst]
+[INFO ] 2020-12-28 12:50:06.996 [main] ProfessorIndexMinPQTest testWithArbitraryComparable - Inserting items into an IndexMinPQ: [edu.yu.introtoalgs.test.ProfessorIndexMinPQTest$Item[description=acme, price=1.32], edu.yu.introtoalgs.test.ProfessorIndexMinPQTest$Item[description=zebra, price=0.23], edu.yu.introtoalgs.test.ProfessorIndexMinPQTest$Item[description=acme, price=2.98]]
+[INFO ] 2020-12-28 12:50:06.996 [main] ProfessorIndexMinPQTest testWithArbitraryComparable - Associating key <edu.yu.introtoalgs.test.ProfessorIndexMinPQTest$Item[description=acme, price=1.32]> with index <0>
+[INFO ] 2020-12-28 12:50:06.996 [main] ProfessorIndexMinPQTest testWithArbitraryComparable - Associating key <edu.yu.introtoalgs.test.ProfessorIndexMinPQTest$Item[description=zebra, price=0.23]> with index <1>
+[INFO ] 2020-12-28 12:50:06.997 [main] ProfessorIndexMinPQTest testWithArbitraryComparable - Associating key <edu.yu.introtoalgs.test.ProfessorIndexMinPQTest$Item[description=acme, price=2.98]> with index <2>
+[INFO ] 2020-12-28 12:50:06.997 [main] ProfessorIndexMinPQTest testWithArbitraryComparable - Adding key <edu.yu.introtoalgs.test.ProfessorIndexMinPQTest$Item[description=acme, price=1.32]> associated with index <0> to my list
+[INFO ] 2020-12-28 12:50:06.997 [main] ProfessorIndexMinPQTest testWithArbitraryComparable - Adding key <edu.yu.introtoalgs.test.ProfessorIndexMinPQTest$Item[description=acme, price=2.98]> associated with index <2> to my list
+[INFO ] 2020-12-28 12:50:06.998 [main] ProfessorIndexMinPQTest testWithArbitraryComparable - Adding key <edu.yu.introtoalgs.test.ProfessorIndexMinPQTest$Item[description=zebra, price=0.23]> associated with index <1> to my list
+[INFO ] 2020-12-28 12:50:06.999 [main] ProfessorIndexMinPQTest testWithArbitraryComparable - Iterator produces this sequence of Items: [edu.yu.introtoalgs.test.ProfessorIndexMinPQTest$Item[description=acme, price=1.32], edu.yu.introtoalgs.test.ProfessorIndexMinPQTest$Item[description=acme, price=2.98], edu.yu.introtoalgs.test.ProfessorIndexMinPQTest$Item[description=zebra, price=0.23]]
+Execution Finished : testWithArbitraryComparable
+Execution Started : afterInitialPQConstruction
+[INFO ] 2020-12-28 12:50:07.000 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Inserting these strings into an IndexMinPQ: [it, was, the, best, of, times, itt, wass, thee, worst]
+[INFO ] 2020-12-28 12:50:07.002 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Associating key <it> with index <0>
+[INFO ] 2020-12-28 12:50:07.002 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Associating key <was> with index <1>
+[INFO ] 2020-12-28 12:50:07.002 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Associating key <the> with index <2>
+[INFO ] 2020-12-28 12:50:07.002 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Associating key <best> with index <3>
+[INFO ] 2020-12-28 12:50:07.002 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Associating key <of> with index <4>
+[INFO ] 2020-12-28 12:50:07.002 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Associating key <times> with index <5>
+[INFO ] 2020-12-28 12:50:07.003 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Associating key <itt> with index <6>
+[INFO ] 2020-12-28 12:50:07.003 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Associating key <wass> with index <7>
+[INFO ] 2020-12-28 12:50:07.003 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Associating key <thee> with index <8>
+[INFO ] 2020-12-28 12:50:07.003 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Associating key <worst> with index <9>
+[INFO ] 2020-12-28 12:50:07.003 [main] ProfessorIndexMinPQTest initializeNewIndexMinPQ - Initialized new IndexMinPQ with this input: [it, was, the, best, of, times, itt, wass, thee, worst]
+[INFO ] 2020-12-28 12:50:07.003 [main] ProfessorIndexMinPQTest afterInitialPQConstruction - Testing immediately after IndexMinPQ construction
+[INFO ] 2020-12-28 12:50:07.004 [main] ProfessorIndexMinPQTest iterableToList - Adding key <best> associated with index <3> to my list
+[INFO ] 2020-12-28 12:50:07.004 [main] ProfessorIndexMinPQTest iterableToList - Adding key <it> associated with index <0> to my list
+[INFO ] 2020-12-28 12:50:07.004 [main] ProfessorIndexMinPQTest iterableToList - Adding key <itt> associated with index <6> to my list
+[INFO ] 2020-12-28 12:50:07.004 [main] ProfessorIndexMinPQTest iterableToList - Adding key <of> associated with index <4> to my list
+[INFO ] 2020-12-28 12:50:07.004 [main] ProfessorIndexMinPQTest iterableToList - Adding key <the> associated with index <2> to my list
+[INFO ] 2020-12-28 12:50:07.004 [main] ProfessorIndexMinPQTest iterableToList - Adding key <thee> associated with index <8> to my list
+[INFO ] 2020-12-28 12:50:07.005 [main] ProfessorIndexMinPQTest iterableToList - Adding key <times> associated with index <5> to my list
+[INFO ] 2020-12-28 12:50:07.005 [main] ProfessorIndexMinPQTest iterableToList - Adding key <was> associated with index <1> to my list
+[INFO ] 2020-12-28 12:50:07.005 [main] ProfessorIndexMinPQTest iterableToList - Adding key <wass> associated with index <7> to my list
+[INFO ] 2020-12-28 12:50:07.005 [main] ProfessorIndexMinPQTest iterableToList - Adding key <worst> associated with index <9> to my list
+[INFO ] 2020-12-28 12:50:07.005 [main] ProfessorIndexMinPQTest iterableToList - Iterator produces this sequence of Strings: [best, it, itt, of, the, thee, times, was, wass, worst]
+[INFO ] 2020-12-28 12:50:07.006 [main] ProfessorIndexMinPQTest keyIndices - IndexMinPQ reports that size=10
+[INFO ] 2020-12-28 12:50:07.007 [main] ProfessorIndexMinPQTest keyIndices - IndexMinPQ indices in Iterator order: [3, 0, 6, 4, 2, 8, 5, 1, 7, 9]
+Execution Finished : afterInitialPQConstruction
+Test cases executed : 4

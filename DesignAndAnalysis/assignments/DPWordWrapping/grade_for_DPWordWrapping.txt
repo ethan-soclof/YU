@@ -1,0 +1,182 @@
+Grade for assignment [SoclofEthan]: 9/10
+Pulled files on Wed Apr 28 10:14:18 EDT 2021
+Latest commit of student files ....
+Latest commit of src/main/java/edu/yu/da/DPWordWrapping.java was on: Tue Apr 27 19:06:16 2021
+building Student SoclofEthan assignment code base from directory /Users/avraham/YUGitRepos/2546/SoclofEthan/DesignAndAnalysis/assignments/DPWordWrapping
+Picked up JAVA_TOOL_OPTIONS: -Xms4096m -Xmx15G -XX:MaxMetaspaceSize=1G
+Copying Professor's JUnit source files in /Users/avraham/YUTeaching/DesignAndAnalysis/assignments/DPWordWrapping/src/test to Student SoclofEthan directory tree in /Users/avraham/YUGitRepos/2546/SoclofEthan/DesignAndAnalysis/assignments/DPWordWrapping/src
+executing Professor's test code against Student SoclofEthan code
+Picked up JAVA_TOOL_OPTIONS: -Xms4096m -Xmx15G -XX:MaxMetaspaceSize=1G
+[ERROR] Picked up JAVA_TOOL_OPTIONS: -Xms4096m -Xmx15G -XX:MaxMetaspaceSize=1G
+Test cases to execute : 1
+Execution Started : wordExceedsLinelength
+Execution Failure : java.lang.AssertionError: Mismatch on expected minimum penalty expected:<2147483647> but was:<-2147483633>
+Execution Finished : wordExceedsLinelength
+Execution Started : minimalBeatsGreedy
+Execution Finished : minimalBeatsGreedy
+Execution Started : all3InputFitsOneOneLine
+Execution Finished : all3InputFitsOneOneLine
+Execution Started : lessTrivialTest1
+Execution Finished : lessTrivialTest1
+Execution Started : lessTrivialTest2
+Execution Finished : lessTrivialTest2
+Execution Started : lessTrivialTest3
+Execution Finished : lessTrivialTest3
+Execution Started : demoSimpleExample
+[INFO ] 2021-04-28 10:14:23.117 [main] ProfessorDPWordWrappingTest demoSimpleExample - Minimimum penalty (line length = 5) for input of [a, b]: 4
+[INFO ] 2021-04-28 10:14:23.118 [main] ProfessorDPWordWrappingTest demoSimpleExample - Computed layout: {0=[a, b]}
+Execution Finished : demoSimpleExample
+[ERROR] Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.32 s <<< FAILURE! - in edu.yu.da.test.ProfessorDPWordWrappingTest
+[ERROR] edu.yu.da.test.ProfessorDPWordWrappingTest.wordExceedsLinelength  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: Mismatch on expected minimum penalty expected:<2147483647> but was:<-2147483633>
+	at edu.yu.da.test.ProfessorDPWordWrappingTest.wordExceedsLinelength(ProfessorDPWordWrappingTest.java:32)
+
+Test cases executed : 7
+[ERROR] Failures: 
+[ERROR]   ProfessorDPWordWrappingTest.wordExceedsLinelength:32 Mismatch on expected minimum penalty expected:<2147483647> but was:<-2147483633>
+[ERROR] Tests run: 7, Failures: 1, Errors: 0, Skipped: 0
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M5:test (default-test) on project DPWordWrapping: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /Users/avraham/YUGitRepos/2546/SoclofEthan/DesignAndAnalysis/assignments/DPWordWrapping/target/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Problem invoking 'maven test target': aborting this run
+Your writeup should contain, in the following order:
+
+1. (25%): An explanation of the dynamic programming approach that
+you’re using to solve the problem: i.e., how will you minimize
+the penalty function. The explanation must be detailed enough to
+motivate the optimal recurrence that you’ll supply in the next
+step.
+
+2. (25%): Deﬁne your notation in terms of your previous explanation and supply a fully-speciﬁed recurrence that solves the problem
+
+good writeup (referring to approach and the way you articulated it)
+
+
+3. (10%): A brief explanation of how you construct the actual optimal layout such that it’s based on your dynamic programming algorithm and meets the “Big-O” space and computation requirements.
+
+The remaining 40% of the grade for this assignment is based on the programming portion of this assignment
+
+good work, deducting -1 for wordExceedsLinelength
+Grade for assignment [SoclofEthan]: /10
+Pulled files on Wed May 12 12:58:06 EDT 2021
+Latest commit of student files ....
+Latest commit of src/main/java/edu/yu/da/DPWordWrapping.java was on: Tue Apr 27 19:06:16 2021
+building Student SoclofEthan assignment code base from directory /Users/avraham/YUGitRepos/2546/SoclofEthan/DesignAndAnalysis/assignments/DPWordWrapping
+Picked up JAVA_TOOL_OPTIONS: -Xms4096m -Xmx15G -XX:MaxMetaspaceSize=1G
+Copying Professor's JUnit source files in /Users/avraham/YUTeaching/DesignAndAnalysis/assignments/DPWordWrapping/src/test to Student SoclofEthan directory tree in /Users/avraham/YUGitRepos/2546/SoclofEthan/DesignAndAnalysis/assignments/DPWordWrapping/src
+executing Professor's test code against Student SoclofEthan code
+Picked up JAVA_TOOL_OPTIONS: -Xms4096m -Xmx15G -XX:MaxMetaspaceSize=1G
+[ERROR] Picked up JAVA_TOOL_OPTIONS: -Xms4096m -Xmx15G -XX:MaxMetaspaceSize=1G
+Test cases to execute : 1
+Execution Started : wordExceedsLinelength
+Execution Failure : java.lang.AssertionError: Mismatch on expected minimum penalty expected:<2147483647> but was:<-2147483633>
+Execution Finished : wordExceedsLinelength
+Execution Started : minimalBeatsGreedy
+[INFO ] 2021-05-12 12:58:10.197 [main] ProfessorDPWordWrappingTest assertValidLayout - line # 0 is: [a, b]
+[INFO ] 2021-05-12 12:58:10.204 [main] ProfessorDPWordWrappingTest assertValidLayout - word: a
+[INFO ] 2021-05-12 12:58:10.205 [main] ProfessorDPWordWrappingTest assertValidLayout - word: b
+[INFO ] 2021-05-12 12:58:10.205 [main] ProfessorDPWordWrappingTest assertValidLayout - line length: 3
+[INFO ] 2021-05-12 12:58:10.205 [main] ProfessorDPWordWrappingTest assertValidLayout - Penalty for this line: 4
+[INFO ] 2021-05-12 12:58:10.205 [main] ProfessorDPWordWrappingTest assertValidLayout - line # 1 is: [c, d]
+[INFO ] 2021-05-12 12:58:10.205 [main] ProfessorDPWordWrappingTest assertValidLayout - word: c
+[INFO ] 2021-05-12 12:58:10.205 [main] ProfessorDPWordWrappingTest assertValidLayout - word: d
+[INFO ] 2021-05-12 12:58:10.206 [main] ProfessorDPWordWrappingTest assertValidLayout - line length: 3
+[INFO ] 2021-05-12 12:58:10.206 [main] ProfessorDPWordWrappingTest assertValidLayout - Penalty for this line: 4
+[INFO ] 2021-05-12 12:58:10.206 [main] ProfessorDPWordWrappingTest assertValidLayout - total penalty: 8
+Execution Finished : minimalBeatsGreedy
+Execution Started : all3InputFitsOneOneLine
+[INFO ] 2021-05-12 12:58:10.207 [main] ProfessorDPWordWrappingTest assertValidLayout - line # 0 is: [a, b, c]
+[INFO ] 2021-05-12 12:58:10.207 [main] ProfessorDPWordWrappingTest assertValidLayout - word: a
+[INFO ] 2021-05-12 12:58:10.207 [main] ProfessorDPWordWrappingTest assertValidLayout - word: b
+[INFO ] 2021-05-12 12:58:10.207 [main] ProfessorDPWordWrappingTest assertValidLayout - word: c
+[INFO ] 2021-05-12 12:58:10.207 [main] ProfessorDPWordWrappingTest assertValidLayout - line length: 5
+[INFO ] 2021-05-12 12:58:10.207 [main] ProfessorDPWordWrappingTest assertValidLayout - Penalty for this line: 0
+[INFO ] 2021-05-12 12:58:10.208 [main] ProfessorDPWordWrappingTest assertValidLayout - total penalty: 0
+Execution Finished : all3InputFitsOneOneLine
+Execution Started : lessTrivialTest1
+[INFO ] 2021-05-12 12:58:10.208 [main] ProfessorDPWordWrappingTest assertValidLayout - line # 0 is: [aaa, bbb]
+[INFO ] 2021-05-12 12:58:10.208 [main] ProfessorDPWordWrappingTest assertValidLayout - word: aaa
+[INFO ] 2021-05-12 12:58:10.208 [main] ProfessorDPWordWrappingTest assertValidLayout - word: bbb
+[INFO ] 2021-05-12 12:58:10.209 [main] ProfessorDPWordWrappingTest assertValidLayout - line length: 7
+[INFO ] 2021-05-12 12:58:10.209 [main] ProfessorDPWordWrappingTest assertValidLayout - Penalty for this line: 16
+[INFO ] 2021-05-12 12:58:10.209 [main] ProfessorDPWordWrappingTest assertValidLayout - line # 1 is: [c, d, ee]
+[INFO ] 2021-05-12 12:58:10.209 [main] ProfessorDPWordWrappingTest assertValidLayout - word: c
+[INFO ] 2021-05-12 12:58:10.209 [main] ProfessorDPWordWrappingTest assertValidLayout - word: d
+[INFO ] 2021-05-12 12:58:10.209 [main] ProfessorDPWordWrappingTest assertValidLayout - word: ee
+[INFO ] 2021-05-12 12:58:10.210 [main] ProfessorDPWordWrappingTest assertValidLayout - line length: 6
+[INFO ] 2021-05-12 12:58:10.210 [main] ProfessorDPWordWrappingTest assertValidLayout - Penalty for this line: 25
+[INFO ] 2021-05-12 12:58:10.210 [main] ProfessorDPWordWrappingTest assertValidLayout - total penalty: 41
+Execution Finished : lessTrivialTest1
+Execution Started : lessTrivialTest2
+[INFO ] 2021-05-12 12:58:10.210 [main] ProfessorDPWordWrappingTest assertValidLayout - line # 0 is: [aaa, bbb]
+[INFO ] 2021-05-12 12:58:10.211 [main] ProfessorDPWordWrappingTest assertValidLayout - word: aaa
+[INFO ] 2021-05-12 12:58:10.211 [main] ProfessorDPWordWrappingTest assertValidLayout - word: bbb
+[INFO ] 2021-05-12 12:58:10.211 [main] ProfessorDPWordWrappingTest assertValidLayout - line length: 7
+[INFO ] 2021-05-12 12:58:10.211 [main] ProfessorDPWordWrappingTest assertValidLayout - Penalty for this line: 16
+[INFO ] 2021-05-12 12:58:10.211 [main] ProfessorDPWordWrappingTest assertValidLayout - line # 1 is: [c, d, ee, ff]
+[INFO ] 2021-05-12 12:58:10.211 [main] ProfessorDPWordWrappingTest assertValidLayout - word: c
+[INFO ] 2021-05-12 12:58:10.211 [main] ProfessorDPWordWrappingTest assertValidLayout - word: d
+[INFO ] 2021-05-12 12:58:10.212 [main] ProfessorDPWordWrappingTest assertValidLayout - word: ee
+[INFO ] 2021-05-12 12:58:10.212 [main] ProfessorDPWordWrappingTest assertValidLayout - word: ff
+[INFO ] 2021-05-12 12:58:10.212 [main] ProfessorDPWordWrappingTest assertValidLayout - line length: 9
+[INFO ] 2021-05-12 12:58:10.212 [main] ProfessorDPWordWrappingTest assertValidLayout - Penalty for this line: 4
+[INFO ] 2021-05-12 12:58:10.212 [main] ProfessorDPWordWrappingTest assertValidLayout - total penalty: 20
+Execution Finished : lessTrivialTest2
+Execution Started : lessTrivialTest3
+[INFO ] 2021-05-12 12:58:10.213 [main] ProfessorDPWordWrappingTest assertValidLayout - line # 0 is: [aaa, bbb]
+[INFO ] 2021-05-12 12:58:10.213 [main] ProfessorDPWordWrappingTest assertValidLayout - word: aaa
+[INFO ] 2021-05-12 12:58:10.213 [main] ProfessorDPWordWrappingTest assertValidLayout - word: bbb
+[INFO ] 2021-05-12 12:58:10.213 [main] ProfessorDPWordWrappingTest assertValidLayout - line length: 7
+[INFO ] 2021-05-12 12:58:10.213 [main] ProfessorDPWordWrappingTest assertValidLayout - Penalty for this line: 16
+[INFO ] 2021-05-12 12:58:10.213 [main] ProfessorDPWordWrappingTest assertValidLayout - line # 1 is: [c, d, ee, ff]
+[INFO ] 2021-05-12 12:58:10.213 [main] ProfessorDPWordWrappingTest assertValidLayout - word: c
+[INFO ] 2021-05-12 12:58:10.214 [main] ProfessorDPWordWrappingTest assertValidLayout - word: d
+[INFO ] 2021-05-12 12:58:10.214 [main] ProfessorDPWordWrappingTest assertValidLayout - word: ee
+[INFO ] 2021-05-12 12:58:10.214 [main] ProfessorDPWordWrappingTest assertValidLayout - word: ff
+[INFO ] 2021-05-12 12:58:10.214 [main] ProfessorDPWordWrappingTest assertValidLayout - line length: 9
+[INFO ] 2021-05-12 12:58:10.214 [main] ProfessorDPWordWrappingTest assertValidLayout - Penalty for this line: 4
+[INFO ] 2021-05-12 12:58:10.214 [main] ProfessorDPWordWrappingTest assertValidLayout - line # 2 is: [ggggggg]
+[INFO ] 2021-05-12 12:58:10.214 [main] ProfessorDPWordWrappingTest assertValidLayout - word: ggggggg
+[INFO ] 2021-05-12 12:58:10.215 [main] ProfessorDPWordWrappingTest assertValidLayout - line length: 7
+[INFO ] 2021-05-12 12:58:10.215 [main] ProfessorDPWordWrappingTest assertValidLayout - Penalty for this line: 16
+[INFO ] 2021-05-12 12:58:10.215 [main] ProfessorDPWordWrappingTest assertValidLayout - total penalty: 36
+Execution Finished : lessTrivialTest3
+Execution Started : demoSimpleExample
+[INFO ] 2021-05-12 12:58:10.215 [main] ProfessorDPWordWrappingTest demoSimpleExample - Minimimum penalty (line length = 5) for input of [a, b]: 4
+[INFO ] 2021-05-12 12:58:10.215 [main] ProfessorDPWordWrappingTest demoSimpleExample - Computed layout: {0=[a, b]}
+[INFO ] 2021-05-12 12:58:10.216 [main] ProfessorDPWordWrappingTest assertValidLayout - line # 0 is: [a, b]
+[INFO ] 2021-05-12 12:58:10.216 [main] ProfessorDPWordWrappingTest assertValidLayout - word: a
+[INFO ] 2021-05-12 12:58:10.216 [main] ProfessorDPWordWrappingTest assertValidLayout - word: b
+[INFO ] 2021-05-12 12:58:10.216 [main] ProfessorDPWordWrappingTest assertValidLayout - line length: 3
+[INFO ] 2021-05-12 12:58:10.216 [main] ProfessorDPWordWrappingTest assertValidLayout - Penalty for this line: 4
+[INFO ] 2021-05-12 12:58:10.216 [main] ProfessorDPWordWrappingTest assertValidLayout - total penalty: 4
+Execution Finished : demoSimpleExample
+[ERROR] Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.35 s <<< FAILURE! - in edu.yu.da.test.ProfessorDPWordWrappingTest
+[ERROR] edu.yu.da.test.ProfessorDPWordWrappingTest.wordExceedsLinelength  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: Mismatch on expected minimum penalty expected:<2147483647> but was:<-2147483633>
+	at edu.yu.da.test.ProfessorDPWordWrappingTest.wordExceedsLinelength(ProfessorDPWordWrappingTest.java:68)
+
+Test cases executed : 7
+[ERROR] Failures: 
+[ERROR]   ProfessorDPWordWrappingTest.wordExceedsLinelength:68 Mismatch on expected minimum penalty expected:<2147483647> but was:<-2147483633>
+[ERROR] Tests run: 7, Failures: 1, Errors: 0, Skipped: 0
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M5:test (default-test) on project DPWordWrapping: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /Users/avraham/YUGitRepos/2546/SoclofEthan/DesignAndAnalysis/assignments/DPWordWrapping/target/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Problem invoking 'maven test target': aborting this run

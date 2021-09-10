@@ -1,0 +1,16 @@
+Assignment HuffmanDrill2 [SoclofEthan]: 10/10
+Pulled files on Fri Apr  9 12:12:49 EDT 2021
+Latest commit of student files ....
+Latest commit of DesignAndAnalysis/assignments/HuffmanDrill2/HuffmanDrill2.pdf was on: Thu Apr 8 18:00:41 2021
+
+Section 3 (7 points): Building a Huﬀman Tree
+
+There should be a total of 6 tree-building steps
+
+
+Section 4 (0.75 points each) : Huﬀman Encoding
+a) DEED
+b) MUCK
+
+
+Section 5 (1.5 pts) : Huﬀman Decoding (1011001110111101)

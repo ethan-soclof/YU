@@ -1,0 +1,110 @@
+Grade for assignment [SoclofEthan]: 8/10
+
+very good proof!
+
+-2: Likely because the code doesn't override hashcode and equals, all
+ tests code that compares actual to expected (and that's the entire
+ test suite) fails.  We've had multiple discussions about the need to
+ do this override.  Grade reflects the fact that I have no way to
+ evaluate the code in detail, and am making an assessment based on the
+ writeup.
+
+
+
+
+Pulled files on Fri Apr  9 12:19:26 EDT 2021
+Latest commit of student files ....
+Latest commit of src/main/java/edu/yu/da/MaxRectangle.java was on: Fri Apr 9 10:00:54 2021
+building Student SoclofEthan assignment code base from directory /Users/avraham/YUGitRepos/2546/SoclofEthan/DesignAndAnalysis/assignments/MaxRectangle
+Picked up JAVA_TOOL_OPTIONS: -Xms4096m -Xmx15G -XX:MaxMetaspaceSize=1G
+Copying Professor's JUnit source files in /Users/avraham/YUTeaching/DesignAndAnalysis/assignments/MaxRectangle/src/test to Student SoclofEthan directory tree in /Users/avraham/YUGitRepos/2546/SoclofEthan/DesignAndAnalysis/assignments/MaxRectangle/src
+executing Professor's test code against Student SoclofEthan code
+Picked up JAVA_TOOL_OPTIONS: -Xms4096m -Xmx15G -XX:MaxMetaspaceSize=1G
+[ERROR] Picked up JAVA_TOOL_OPTIONS: -Xms4096m -Xmx15G -XX:MaxMetaspaceSize=1G
+Test cases to execute : 1
+Execution Started : smallNonTrivialTestUnevenHeights
+Execution Failure : java.lang.AssertionError: Input array is: [1, 2, 1, 3, 4, 4, 3, 6, 2, 1, 3, 1, 3, 2, 1, 2, 5, 1] expected:<edu.yu.da.MaxRectangle$Answer@1115ec15> but was:<edu.yu.da.MaxRectangle$Answer@82ea68c>
+Execution Finished : smallNonTrivialTestUnevenHeights
+Execution Started : testInner
+[INFO ] 2021-04-09 12:19:30.587 [main] ProfessorMaxRectangleTest testInner - Input array is [1, 9, 9, 1]
+Execution Failure : java.lang.AssertionError: should be inner rectangle expected:<edu.yu.da.MaxRectangle$Answer@d771cc9> but was:<edu.yu.da.MaxRectangle$Answer@36b4091c>
+Execution Finished : testInner
+Execution Started : testOuter
+[INFO ] 2021-04-09 12:19:30.589 [main] ProfessorMaxRectangleTest testOuter - Input array is [1, 3, 3, 1]
+Execution Failure : java.lang.AssertionError: should be outer rectangle expected:<edu.yu.da.MaxRectangle$Answer@4671115f> but was:<edu.yu.da.MaxRectangle$Answer@36cda2c2>
+Execution Finished : testOuter
+Execution Started : inputMustContainAtLeast2Elements
+Execution Finished : inputMustContainAtLeast2Elements
+Execution Started : performanceTest
+[INFO ] 2021-04-09 12:19:30.592 [Time-limited test] ProfessorMaxRectangleTest performanceTest - n (number of coordinates): 20480
+[INFO ] 2021-04-09 12:19:30.594 [Time-limited test] ProfessorMaxRectangleTest performanceTest - start@1617985170594
+[INFO ] 2021-04-09 12:19:30.595 [Time-limited test] ProfessorMaxRectangleTest performanceTest - end@1617985170595
+Execution Failure : java.lang.AssertionError: For an array of n=20480 coordinates, max rectangle should have the 2 middle coordinate heights as the left and right sides expected:<edu.yu.da.MaxRectangle$Answer@65a2250f> but was:<edu.yu.da.MaxRectangle$Answer@35a38399>
+Execution Finished : performanceTest
+Execution Started : smallNonTrivialTest
+Execution Failure : java.lang.AssertionError: Input array is: [1, 2, 1, 3, 4, 4, 5, 6, 2, 1, 3, 1, 3, 2, 1, 2, 4, 1] expected:<edu.yu.da.MaxRectangle$Answer@3bd323e9> but was:<edu.yu.da.MaxRectangle$Answer@39ac0c0a>
+Execution Finished : smallNonTrivialTest
+Execution Started : demoTest
+Execution Failure : java.lang.AssertionError: should be inner rectangle expected:<edu.yu.da.MaxRectangle$Answer@c7ba306> but was:<edu.yu.da.MaxRectangle$Answer@4ff8d125>
+Execution Finished : demoTest
+Execution Started : inputCantBeNull
+Execution Finished : inputCantBeNull
+[ERROR] Tests run: 8, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0.337 s <<< FAILURE! - in edu.yu.da.test.ProfessorMaxRectangleTest
+[ERROR] edu.yu.da.test.ProfessorMaxRectangleTest.smallNonTrivialTestUnevenHeights  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: Input array is: [1, 2, 1, 3, 4, 4, 3, 6, 2, 1, 3, 1, 3, 2, 1, 2, 5, 1] expected:<edu.yu.da.MaxRectangle$Answer@1115ec15> but was:<edu.yu.da.MaxRectangle$Answer@82ea68c>
+	at edu.yu.da.test.ProfessorMaxRectangleTest.smallNonTrivialTestUnevenHeights(ProfessorMaxRectangleTest.java:63)
+
+[ERROR] edu.yu.da.test.ProfessorMaxRectangleTest.testInner  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: should be inner rectangle expected:<edu.yu.da.MaxRectangle$Answer@d771cc9> but was:<edu.yu.da.MaxRectangle$Answer@36b4091c>
+	at edu.yu.da.test.ProfessorMaxRectangleTest.testInner(ProfessorMaxRectangleTest.java:38)
+
+[ERROR] edu.yu.da.test.ProfessorMaxRectangleTest.testOuter  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: should be outer rectangle expected:<edu.yu.da.MaxRectangle$Answer@4671115f> but was:<edu.yu.da.MaxRectangle$Answer@36cda2c2>
+	at edu.yu.da.test.ProfessorMaxRectangleTest.testOuter(ProfessorMaxRectangleTest.java:47)
+
+[ERROR] edu.yu.da.test.ProfessorMaxRectangleTest.performanceTest  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: For an array of n=20480 coordinates, max rectangle should have the 2 middle coordinate heights as the left and right sides expected:<edu.yu.da.MaxRectangle$Answer@65a2250f> but was:<edu.yu.da.MaxRectangle$Answer@35a38399>
+	at edu.yu.da.test.ProfessorMaxRectangleTest.performanceTest(ProfessorMaxRectangleTest.java:123)
+
+[ERROR] edu.yu.da.test.ProfessorMaxRectangleTest.smallNonTrivialTest  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Input array is: [1, 2, 1, 3, 4, 4, 5, 6, 2, 1, 3, 1, 3, 2, 1, 2, 4, 1] expected:<edu.yu.da.MaxRectangle$Answer@3bd323e9> but was:<edu.yu.da.MaxRectangle$Answer@39ac0c0a>
+	at edu.yu.da.test.ProfessorMaxRectangleTest.smallNonTrivialTest(ProfessorMaxRectangleTest.java:55)
+
+[ERROR] edu.yu.da.test.ProfessorMaxRectangleTest.demoTest  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: should be inner rectangle expected:<edu.yu.da.MaxRectangle$Answer@c7ba306> but was:<edu.yu.da.MaxRectangle$Answer@4ff8d125>
+	at edu.yu.da.test.ProfessorMaxRectangleTest.demoTest(ProfessorMaxRectangleTest.java:27)
+
+Test cases executed : 8
+[ERROR] Failures: 
+[ERROR]   ProfessorMaxRectangleTest.demoTest:27 should be inner rectangle expected:<edu.yu.da.MaxRectangle$Answer@c7ba306> but was:<edu.yu.da.MaxRectangle$Answer@4ff8d125>
+[ERROR]   ProfessorMaxRectangleTest.performanceTest:123 For an array of n=20480 coordinates, max rectangle should have the 2 middle coordinate heights as the left and right sides expected:<edu.yu.da.MaxRectangle$Answer@65a2250f> but was:<edu.yu.da.MaxRectangle$Answer@35a38399>
+[ERROR]   ProfessorMaxRectangleTest.smallNonTrivialTest:55 Input array is: [1, 2, 1, 3, 4, 4, 5, 6, 2, 1, 3, 1, 3, 2, 1, 2, 4, 1] expected:<edu.yu.da.MaxRectangle$Answer@3bd323e9> but was:<edu.yu.da.MaxRectangle$Answer@39ac0c0a>
+[ERROR]   ProfessorMaxRectangleTest.smallNonTrivialTestUnevenHeights:63 Input array is: [1, 2, 1, 3, 4, 4, 3, 6, 2, 1, 3, 1, 3, 2, 1, 2, 5, 1] expected:<edu.yu.da.MaxRectangle$Answer@1115ec15> but was:<edu.yu.da.MaxRectangle$Answer@82ea68c>
+[ERROR]   ProfessorMaxRectangleTest.testInner:38 should be inner rectangle expected:<edu.yu.da.MaxRectangle$Answer@d771cc9> but was:<edu.yu.da.MaxRectangle$Answer@36b4091c>
+[ERROR]   ProfessorMaxRectangleTest.testOuter:47 should be outer rectangle expected:<edu.yu.da.MaxRectangle$Answer@4671115f> but was:<edu.yu.da.MaxRectangle$Answer@36cda2c2>
+[ERROR] Tests run: 8, Failures: 6, Errors: 0, Skipped: 0
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M5:test (default-test) on project MaxRectangle: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /Users/avraham/YUGitRepos/2546/SoclofEthan/DesignAndAnalysis/assignments/MaxRectangle/target/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Problem invoking 'maven test target': aborting this run
+Your writeup must contain in this order:
+
+1. (5%): One paragraph describing a “brute force” solution and its Big-O performance.
+
+2. (10%): One paragraph describing your algorithm’s “core” greedy heuristic.
+
+3. (20%): Pseudo-code for a greedy algorithm that solves this problem in O(n) time (n is the number of (x, y) coordinates).
+
+4. (15%): Proof of optimality.
+
+Programming Work
+
+This part of the assignment is worth (50%).

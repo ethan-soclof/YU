@@ -1,0 +1,270 @@
+Grade for assignment [SoclofEthan]: 8.5/10
+
+Over the entire range of my performance driver (input size and
+threshold), FJ performed worse than sequential (see below).  For
+reference, most student code hit (at worst), a 4x FJ improvement over
+sequential.  Grade reflects acknowledgment that you produced
+qualitatively different results on your machine, but deduction also
+reflects the fact that the implementation should have performed
+better.  Also: my driver timed out after 100 seconds, by way of
+reference, most student code ran to completion in a range of 25-30
+seconds.
+
+
+Pulled files on Fri Nov 27 11:47:58 EST 2020
+Latest commit of student files ....
+Latest commit of src/main/java/edu/yu/introtoalgs/SecondSmallestElementFJ.java was on: Thu Nov 26 02:05:48 2020
+building Student SoclofEthan assignment code base from directory /Users/avraham/YUGitRepos/2545/SoclofEthan/IntroToAlgorithms/assignments/SecondSmallestElementFJ
+Picked up JAVA_TOOL_OPTIONS: -Xms4096m -Xmx15G -XX:MaxMetaspaceSize=1G
+Copying Professor's JUnit source files in /Users/avraham/YUTeaching/IntroToAlgorithms/assignments/SecondSmallestElementFJ/src/test to Student SoclofEthan directory tree in /Users/avraham/YUGitRepos/2545/SoclofEthan/IntroToAlgorithms/assignments/SecondSmallestElementFJ/src
+executing Professor's test code against Student SoclofEthan code
+Picked up JAVA_TOOL_OPTIONS: -Xms4096m -Xmx15G -XX:MaxMetaspaceSize=1G
+[ERROR] Picked up JAVA_TOOL_OPTIONS: -Xms4096m -Xmx15G -XX:MaxMetaspaceSize=1G
+Test cases to execute : 1
+Execution Started : inputMustHaveAtLeastTwoUniqueElementsMinimalSequential
+Execution Finished : inputMustHaveAtLeastTwoUniqueElementsMinimalSequential
+Execution Started : inputMustHaveAtLeastTwoUniqueElementsIntermediateSequential
+Execution Finished : inputMustHaveAtLeastTwoUniqueElementsIntermediateSequential
+Execution Started : driver
+We're going to see how your FJ implementation compares to a sequential implementation for various cutoff thresholds (expressed as a fraction)
+
+n:        128, sequential(ms):  0.00, 1/(# of cores) 6 = 0.167
+>>> Cutoff fraction: 0.000, ratio-to-sequential: Infinity
+>>> Cutoff fraction: 0.070, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.150, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.250, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.500, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.750, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 1.000, ratio-to-sequential:   NaN
+
+n:        256, sequential(ms):  0.00, 1/(# of cores) 6 = 0.167
+>>> Cutoff fraction: 0.000, ratio-to-sequential: Infinity
+>>> Cutoff fraction: 0.070, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.150, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.250, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.500, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.750, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 1.000, ratio-to-sequential:   NaN
+
+n:        512, sequential(ms):  0.00, 1/(# of cores) 6 = 0.167
+>>> Cutoff fraction: 0.000, ratio-to-sequential: Infinity
+>>> Cutoff fraction: 0.070, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.150, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.250, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.500, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.750, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 1.000, ratio-to-sequential:   NaN
+
+n:      1,024, sequential(ms):  0.00, 1/(# of cores) 6 = 0.167
+>>> Cutoff fraction: 0.000, ratio-to-sequential: Infinity
+>>> Cutoff fraction: 0.070, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.150, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.250, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.500, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.750, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 1.000, ratio-to-sequential:   NaN
+
+n:      2,048, sequential(ms):  0.00, 1/(# of cores) 6 = 0.167
+>>> Cutoff fraction: 0.000, ratio-to-sequential: Infinity
+>>> Cutoff fraction: 0.070, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.150, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.250, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.500, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.750, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 1.000, ratio-to-sequential:   NaN
+
+n:      4,096, sequential(ms):  0.00, 1/(# of cores) 6 = 0.167
+>>> Cutoff fraction: 0.000, ratio-to-sequential: Infinity
+>>> Cutoff fraction: 0.070, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.150, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.250, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.500, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.750, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 1.000, ratio-to-sequential:   NaN
+
+n:      8,192, sequential(ms):  0.00, 1/(# of cores) 6 = 0.167
+>>> Cutoff fraction: 0.000, ratio-to-sequential: Infinity
+>>> Cutoff fraction: 0.070, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.150, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.250, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.500, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.750, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 1.000, ratio-to-sequential:   NaN
+
+n:     16,384, sequential(ms):  0.00, 1/(# of cores) 6 = 0.167
+>>> Cutoff fraction: 0.000, ratio-to-sequential: Infinity
+>>> Cutoff fraction: 0.070, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.150, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.250, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.500, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.750, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 1.000, ratio-to-sequential:   NaN
+
+n:     32,768, sequential(ms):  0.00, 1/(# of cores) 6 = 0.167
+>>> Cutoff fraction: 0.000, ratio-to-sequential: Infinity
+>>> Cutoff fraction: 0.070, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.150, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.250, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.500, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.750, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 1.000, ratio-to-sequential:   NaN
+
+n:     65,536, sequential(ms):  0.00, 1/(# of cores) 6 = 0.167
+>>> Cutoff fraction: 0.000, ratio-to-sequential: Infinity
+>>> Cutoff fraction: 0.070, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.150, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.250, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.500, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.750, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 1.000, ratio-to-sequential:   NaN
+
+n:    131,072, sequential(ms):  0.00, 1/(# of cores) 6 = 0.167
+>>> Cutoff fraction: 0.000, ratio-to-sequential: Infinity
+>>> Cutoff fraction: 0.070, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.150, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.250, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.500, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.750, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 1.000, ratio-to-sequential:   NaN
+
+n:    262,144, sequential(ms):  0.00, 1/(# of cores) 6 = 0.167
+>>> Cutoff fraction: 0.000, ratio-to-sequential: Infinity
+>>> Cutoff fraction: 0.070, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.150, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.250, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.500, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.750, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 1.000, ratio-to-sequential:   NaN
+
+n:    524,288, sequential(ms):  0.00, 1/(# of cores) 6 = 0.167
+>>> Cutoff fraction: 0.000, ratio-to-sequential: Infinity
+>>> Cutoff fraction: 0.070, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 0.150, ratio-to-sequential: Infinity
+>>> Cutoff fraction: 0.250, ratio-to-sequential: Infinity
+>>> Cutoff fraction: 0.500, ratio-to-sequential: Infinity
+>>> Cutoff fraction: 0.750, ratio-to-sequential:   NaN
+>>> Cutoff fraction: 1.000, ratio-to-sequential:   NaN
+
+n:  1,048,576, sequential(ms):  0.00, 1/(# of cores) 6 = 0.167
+>>> Cutoff fraction: 0.000, ratio-to-sequential: Infinity
+>>> Cutoff fraction: 0.070, ratio-to-sequential: Infinity
+>>> Cutoff fraction: 0.150, ratio-to-sequential: Infinity
+>>> Cutoff fraction: 0.250, ratio-to-sequential: Infinity
+>>> Cutoff fraction: 0.500, ratio-to-sequential: Infinity
+>>> Cutoff fraction: 0.750, ratio-to-sequential: Infinity
+>>> Cutoff fraction: 1.000, ratio-to-sequential: Infinity
+
+n:  2,097,152, sequential(ms):  1.00, 1/(# of cores) 6 = 0.167
+>>> Cutoff fraction: 0.000, ratio-to-sequential: 161.00
+>>> Cutoff fraction: 0.070, ratio-to-sequential:  4.00
+>>> Cutoff fraction: 0.150, ratio-to-sequential:  6.00
+>>> Cutoff fraction: 0.250, ratio-to-sequential:  7.00
+>>> Cutoff fraction: 0.500, ratio-to-sequential:  3.00
+>>> Cutoff fraction: 0.750, ratio-to-sequential:  3.00
+>>> Cutoff fraction: 1.000, ratio-to-sequential:  2.00
+
+n:  4,194,304, sequential(ms):  3.00, 1/(# of cores) 6 = 0.167
+>>> Cutoff fraction: 0.000, ratio-to-sequential: 95.67
+>>> Cutoff fraction: 0.070, ratio-to-sequential:  3.00
+>>> Cutoff fraction: 0.150, ratio-to-sequential:  4.00
+>>> Cutoff fraction: 0.250, ratio-to-sequential:  3.00
+>>> Cutoff fraction: 0.500, ratio-to-sequential:  3.33
+>>> Cutoff fraction: 0.750, ratio-to-sequential:  1.00
+>>> Cutoff fraction: 1.000, ratio-to-sequential:  1.33
+
+n:  8,388,608, sequential(ms):  6.00, 1/(# of cores) 6 = 0.167
+>>> Cutoff fraction: 0.000, ratio-to-sequential: 62.67
+>>> Cutoff fraction: 0.070, ratio-to-sequential:  2.83
+>>> Cutoff fraction: 0.150, ratio-to-sequential:  3.17
+>>> Cutoff fraction: 0.250, ratio-to-sequential:  3.67
+>>> Cutoff fraction: 0.500, ratio-to-sequential:  4.17
+>>> Cutoff fraction: 0.750, ratio-to-sequential:  3.67
+>>> Cutoff fraction: 1.000, ratio-to-sequential:  1.33
+
+n: 16,777,216, sequential(ms): 12.00, 1/(# of cores) 6 = 0.167
+>>> Cutoff fraction: 0.000, ratio-to-sequential: 57.17
+>>> Cutoff fraction: 0.070, ratio-to-sequential:  3.00
+>>> Cutoff fraction: 0.150, ratio-to-sequential:  2.83
+>>> Cutoff fraction: 0.250, ratio-to-sequential:  3.75
+>>> Cutoff fraction: 0.500, ratio-to-sequential:  3.58
+>>> Cutoff fraction: 0.750, ratio-to-sequential:  4.00
+>>> Cutoff fraction: 1.000, ratio-to-sequential:  1.42
+
+n: 33,554,432, sequential(ms): 24.00, 1/(# of cores) 6 = 0.167
+>>> Cutoff fraction: 0.000, ratio-to-sequential: 54.33
+>>> Cutoff fraction: 0.070, ratio-to-sequential:  3.46
+>>> Cutoff fraction: 0.150, ratio-to-sequential:  4.71
+>>> Cutoff fraction: 0.250, ratio-to-sequential:  3.13
+>>> Cutoff fraction: 0.500, ratio-to-sequential:  3.67
+>>> Cutoff fraction: 0.750, ratio-to-sequential:  4.04
+>>> Cutoff fraction: 1.000, ratio-to-sequential:  1.50
+
+n: 67,108,864, sequential(ms): 48.00, 1/(# of cores) 6 = 0.167
+>>> Cutoff fraction: 0.000, ratio-to-sequential: 57.25
+>>> Cutoff fraction: 0.070, ratio-to-sequential:  4.35
+>>> Cutoff fraction: 0.150, ratio-to-sequential:  4.92
+>>> Cutoff fraction: 0.250, ratio-to-sequential:  3.42
+>>> Cutoff fraction: 0.500, ratio-to-sequential:  2.85
+>>> Cutoff fraction: 0.750, ratio-to-sequential:  2.46
+>>> Cutoff fraction: 1.000, ratio-to-sequential:  1.42
+
+n: 134,217,728, sequential(ms): 96.00, 1/(# of cores) 6 = 0.167
+>>> Cutoff fraction: 0.000, ratio-to-sequential: 58.93
+>>> Cutoff fraction: 0.070, ratio-to-sequential:  2.49
+>>> Cutoff fraction: 0.150, ratio-to-sequential:  4.30
+>>> Cutoff fraction: 0.250, ratio-to-sequential:  4.40
+>>> Cutoff fraction: 0.500, ratio-to-sequential:  2.45
+>>> Cutoff fraction: 0.750, ratio-to-sequential:  2.34
+>>> Cutoff fraction: 1.000, ratio-to-sequential:  1.41
+
+n: 268,435,456, sequential(ms): 195.00, 1/(# of cores) 6 = 0.167
+>>> Cutoff fraction: 0.000, ratio-to-sequential: 59.44
+>>> Cutoff fraction: 0.070, ratio-to-sequential:  3.48
+>>> Cutoff fraction: 0.150, ratio-to-sequential:  4.08
+>>> Cutoff fraction: 0.250, ratio-to-sequential:  3.16
+>>> Cutoff fraction: 0.500, ratio-to-sequential:  2.67
+>>> Cutoff fraction: 0.750, ratio-to-sequential:  3.35
+>>> Cutoff fraction: 1.000, ratio-to-sequential:  1.40
+
+n: 536,870,912, sequential(ms): 385.00, 1/(# of cores) 6 = 0.167
+>>> Cutoff fraction: 0.000, ratio-to-sequential: 60.42
+>>> Cutoff fraction: 0.070, ratio-to-sequential:  3.32
+>>> Cutoff fraction: 0.150, ratio-to-sequential:  3.36
+>>> Cutoff fraction: 0.250, ratio-to-sequential:  3.42
+>>> Cutoff fraction: 0.500, ratio-to-sequential:  3.69
+>>> Cutoff fraction: 0.750, ratio-to-sequential:  2.67
+>>> Cutoff fraction: 1.000, ratio-to-sequential:  1.42
+
+n: 1,073,741,824, sequential(ms): 765.00, 1/(# of cores) 6 = 0.167
+Execution Failure : org.junit.runners.model.TestTimedOutException: test timed out after 100000 milliseconds
+Execution Finished : driver
+Execution Started : minimalTestIntermediateSequential
+Execution Finished : minimalTestIntermediateSequential
+Execution Started : minimalTestMinimalSequential
+Execution Finished : minimalTestMinimalSequential
+Execution Started : inputMustHaveAtLeastTwoUniqueElementsAllSequential
+Execution Finished : inputMustHaveAtLeastTwoUniqueElementsAllSequential
+Execution Started : minimalTestAllSequential
+Execution Finished : minimalTestAllSequential
+[ERROR] Tests run: 7, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 108.26 s <<< FAILURE! - in edu.yu.introtoalgs.test.ProfessorSecondSmallestElementFJTest
+[ERROR] edu.yu.introtoalgs.test.ProfessorSecondSmallestElementFJTest.driver  Time elapsed: 100.039 s  <<< ERROR!
+org.junit.runners.model.TestTimedOutException: test timed out after 100000 milliseconds
+	at app//edu.yu.introtoalgs.test.ProfessorSecondSmallestElementFJTest.driver(ProfessorSecondSmallestElementFJTest.java:177)
+
+Test cases executed : 7
+>>> Cutoff fraction: 0.000, ratio-to-sequential: 56.97
+[ERROR] Errors: 
+[ERROR]   ProfessorSecondSmallestElementFJTest.driver:177->Object.wait:-2 » TestTimedOut
+[ERROR] Tests run: 7, Failures: 0, Errors: 1, Skipped: 0
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M5:test (default-test) on project SecondSmallestElementFJ: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /Users/avraham/YUGitRepos/2545/SoclofEthan/IntroToAlgorithms/assignments/SecondSmallestElementFJ/target/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Problem invoking 'maven test target': aborting this run

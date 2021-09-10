@@ -1,0 +1,27 @@
+Assignment RecurrencesDrill1 [SoclofEthan]: 9.3/10
+Pulled files on Tue Feb  2 10:12:52 EST 2021
+Latest commit of student files ....
+Latest commit of DesignAndAnalysis/assignments/RecurrencesDrill1/RecurrencesDrill1.pdf was on: Mon Feb 1 18:45:35 2021
+
+-0.7: for several questions, you didn't take the final step of using
+ the gaussian identity to simplify the summation.  probably
+ inadvertantly, but the assignment did supply them so that you could
+ use them
+
+"You may want to review, and use, the “summation” identities (above), speciﬁcally Gauss’s summation identity.
+
+You will likely lose points if you don’t keep these points in mind."
+
+otherwise, good work!
+
+
+7.1.1 (Give a recurrence formula T(n) for the running time of f()) -- 3pts
+
+
+7.1.2 (Give a recurrence W(n) that models the returned integer output of f(n)) -- 3 pts
+
+8.1.1 (recurrence formulas for the worst-case performance of P(k) (populate()) -- 3 pts 
+
+8.1.2 (recurrence formulas for the worst-case performance of T(n) (test). Your formulation for T(n) must include P() by “reference”) -- 1pts
+
+

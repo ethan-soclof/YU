@@ -1,0 +1,91 @@
+Grade for assignment [SoclofEthan]: 7.5/10
+
+your algorithm is correct, and admirably terse.  however, see below. 
+
+programming portion:  
+
+[ERROR] edu.yu.da.test.ProfessorMaxOverBTDescendantsTest.performanceTest  Time elapsed: 0.031 s  <<< ERROR!
+java.lang.ArrayIndexOutOfBoundsException: Index 20482 out of bounds for length 20482
+	at edu.yu.da.test.ProfessorMaxOverBTDescendantsTest.performanceTest(ProfessorMaxOverBTDescendantsTest.java:210)
+
+[ERROR] edu.yu.da.test.ProfessorMaxOverBTDescendantsTest.maxChildrenTwo  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Expected exception: java.lang.Throwable
+
+one small correctness error, but very serious error on performance test, to the point where i can't measure performance.
+
+given that the programming portion is worth 70%, deducting -2.5
+
+
+Pulled files on Sat Mar 13 19:42:34 EST 2021
+Latest commit of student files ....
+Latest commit of src/main/java/edu/yu/da/MaxOverBTDescendants.java was on: Thu Mar 11 16:52:37 2021
+building Student SoclofEthan assignment code base from directory /Users/avraham/YUGitRepos/2546/SoclofEthan/DesignAndAnalysis/assignments/MaxOverBTDescendants
+Picked up JAVA_TOOL_OPTIONS: -Xms4096m -Xmx15G -XX:MaxMetaspaceSize=1G
+Copying Professor's JUnit source files in /Users/avraham/YUTeaching/DesignAndAnalysis/assignments/MaxOverBTDescendants/src/test to Student SoclofEthan directory tree in /Users/avraham/YUGitRepos/2546/SoclofEthan/DesignAndAnalysis/assignments/MaxOverBTDescendants/src
+executing Professor's test code against Student SoclofEthan code
+Picked up JAVA_TOOL_OPTIONS: -Xms4096m -Xmx15G -XX:MaxMetaspaceSize=1G
+[ERROR] Picked up JAVA_TOOL_OPTIONS: -Xms4096m -Xmx15G -XX:MaxMetaspaceSize=1G
+Test cases to execute : 1
+Execution Started : rootWithOneChild
+[INFO ] 2021-03-13 19:42:39.394 [main] ProfessorMaxOverBTDescendantsTest rootWithOneChild - Received [1.0, 1.0]
+Execution Finished : rootWithOneChild
+Execution Started : threeLevelTreeWithDescendingValues
+[INFO ] 2021-03-13 19:42:39.401 [main] ProfessorMaxOverBTDescendantsTest threeLevelTreeWithDescendingValues - Received [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0]
+Execution Finished : threeLevelTreeWithDescendingValues
+Execution Started : threeLevelTree
+[INFO ] 2021-03-13 19:42:39.402 [main] ProfessorMaxOverBTDescendantsTest threeLevelTree - Received [6.0, 4.0, 6.0, 3.0, 4.0, 5.0, 6.0]
+Execution Finished : threeLevelTree
+Execution Started : performanceTest
+[INFO ] 2021-03-13 19:42:39.404 [Time-limited test] ProfessorMaxOverBTDescendantsTest performanceTest - n (number of nodes in the tree): 20480
+Execution Failure : java.lang.ArrayIndexOutOfBoundsException: Index 20482 out of bounds for length 20482
+Execution Finished : performanceTest
+Execution Started : treeCantBeEmpty
+Execution Finished : treeCantBeEmpty
+Execution Started : vertexIdMustBeValid
+Execution Finished : vertexIdMustBeValid
+Execution Started : treeCanHaveOnlyRoot
+[INFO ] 2021-03-13 19:42:39.435 [main] ProfessorMaxOverBTDescendantsTest treeCanHaveOnlyRoot - Received [42.0]
+Execution Finished : treeCanHaveOnlyRoot
+Execution Started : maxChildrenTwo
+Execution Failure : java.lang.AssertionError: Expected exception: java.lang.Throwable
+Execution Finished : maxChildrenTwo
+Execution Started : canOnlyAddChildToConnectedNode
+Execution Finished : canOnlyAddChildToConnectedNode
+Execution Started : cantAddAlreadyConnectedNode
+Execution Finished : cantAddAlreadyConnectedNode
+Execution Started : rootWithTwoChildren
+[INFO ] 2021-03-13 19:42:39.437 [main] ProfessorMaxOverBTDescendantsTest rootWithTwoChildren - Received [2.0, 1.0, 2.0]
+Execution Finished : rootWithTwoChildren
+[ERROR] Tests run: 11, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 0.376 s <<< FAILURE! - in edu.yu.da.test.ProfessorMaxOverBTDescendantsTest
+[ERROR] edu.yu.da.test.ProfessorMaxOverBTDescendantsTest.performanceTest  Time elapsed: 0.031 s  <<< ERROR!
+java.lang.ArrayIndexOutOfBoundsException: Index 20482 out of bounds for length 20482
+	at edu.yu.da.test.ProfessorMaxOverBTDescendantsTest.performanceTest(ProfessorMaxOverBTDescendantsTest.java:210)
+
+[ERROR] edu.yu.da.test.ProfessorMaxOverBTDescendantsTest.maxChildrenTwo  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Expected exception: java.lang.Throwable
+
+Test cases executed : 11
+[ERROR] Failures: 
+[ERROR]   ProfessorMaxOverBTDescendantsTest.maxChildrenTwo Expected exception: java.lang.Throwable
+[ERROR] Errors: 
+[ERROR]   ProfessorMaxOverBTDescendantsTest.performanceTest:210 » ArrayIndexOutOfBounds ...
+[ERROR] Tests run: 11, Failures: 1, Errors: 1, Skipped: 0
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M5:test (default-test) on project MaxOverBTDescendants: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /Users/avraham/YUGitRepos/2546/SoclofEthan/DesignAndAnalysis/assignments/MaxOverBTDescendants/target/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Problem invoking 'maven test target': aborting this run
+1. (15%): A linear-time algorithm that solves the problem
+
+2. (15%): A “correctness” proof and a “performance” proof of your
+algorithm. You are encouraged to use “proof by reference” to concepts
+discussed in lecture or textbook.
+
+The remaining 70% of the grade for this assignment is based on the programming portion of this assignment

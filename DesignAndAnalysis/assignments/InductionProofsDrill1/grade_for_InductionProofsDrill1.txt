@@ -1,0 +1,13 @@
+Assignment InductionProofsDrill1 [SoclofEthan]: 8/10
+Pulled files on Tue Feb  2 10:12:01 EST 2021
+Latest commit of student files ....
+Latest commit of DesignAndAnalysis/assignments/InductionProofsDrill1/InductionProofsDrill1.pdf was on: Mon Feb 1 18:45:35 2021
+
+Two points each:
+
+1)
+2)
+3)
+4) d
+5)
+

@@ -1,0 +1,18 @@
+Assignment NetworkFlow1 [SoclofEthan]: 10/10
+very good work!
+
+Pulled files on Sat May  1 22:22:50 EDT 2021
+Latest commit of student files ....
+Latest commit of DesignAndAnalysis/assignments/NetworkFlow1/NetworkFlow1.pdf was on: Wed Apr 28 18:13:01 2021
+1. (1 pt) What is the value of the ﬂow f?
+
+2. (2 pts) Perform one iteration of the Ford-Fulkerson algorithm, starting from the ﬂow f. Give the sequence of vertices on the augmenting path.
+This single iteration must achieve the graph’s max-ﬂow (next question).
+
+3. (1 pt) What is the value of the maximum ﬂow?
+
+4. (3 points) Show (neatly!) the resulting maximum st-ﬂow by drawing the graph and annotating the ﬂow/capacity numbers for each edge in G. Your picture must resemble the original ﬁgure, with some changes to the ﬂow numbers in the numerator.
+
+5. (2 pts) List the vertices on the s side of the minimum cut.
+
+6. (1 pt) What is the capacity of the minimum cut?

@@ -1,0 +1,61 @@
+Assignment NFApps1 [SoclofEthan]: 7.5/10
+Pulled files on Tue May 11 17:05:21 EDT 2021
+Latest commit of student files ....
+Latest commit of DesignAndAnalysis/assignments/NFApps1/NFApps1.pdf was on: Mon May 10 15:06:02 2021
+
+"Add edges of capacity p from s to every member of chaburah. Add edges of capacity 1 from every student to t." etc etc:
+
+-2.5: this idea in the writeup ripples through the writeup, so
+ deducting one-time penalty and not deducting further.  The problem
+ with this is that conceptually this states that every student can end
+ up with "p" units of flow, whereas in the original problem, a student
+ can only be in one chaburo: the issue only is, in which chaburo will
+ the student be.  As an FYI: the solution is to have the 1 unit of
+ flow from "s -> student" and a capacity of "p" FROM THE CHABURO nodes
+ to "t"
+
+
+1. (20%: Show that this problem can be reduced to a network-ﬂow
+problem. To be convincing, you should use the approach(s) presented in
+lecture and the textbook, introducing precise notation as
+necessary. I’ve already deﬁned m, n, p: only add notation if
+necessary.
+
+
+
+
+2. (10%): Draw the ﬂow network that you would construct in order to
+solve the above “example” (with 6 students and 3 chaburos). Write
+several sentences that show how you use the reduction from the
+previous part to construct the graph.
+
+Your graph must clearly show: labeling of the source and destination
+vertices; all edges & vertices; and edge capacities.
+
+3. (10%): Describe precisely how we can use your solution above to
+determine whether, in fact, an assignment does exist in which each
+student gets one of their top two choices? Speciﬁcally: what
+characteristic of the network-ﬂow “reports” whether or not an
+assignment can be made.
+
+
+4. (10%): As a function of m (number of chaburos), n (number of
+students), and p (number of slots per chaburo) in the worst case,
+howmany augmenting paths will Ford–Fulkerson algorithm ﬁnd? You may
+assume that n ≥ m.
+
+
+5. (10%): Now we modify the original problem somewhat. Let k be an
+integer between 1 and m, and we want to know whether it’s possible to
+assign students ⇔ chaburos such that each student gets one of their
+top k choices. Brieﬂy describe how you could easily modify your
+solution to part (a) to solve this modiﬁed problem.
+
+
+6. (40%): Design an “eﬃcient” algorithm that ﬁnds the smallest integer
+k for which it is possible to assign students ⇔ chaburos such that
+each student gets one of their top k choices.
+
+Your algorithm must be substantially faster in the worst case than
+repeatedly applying your solution to the previous “modiﬁed top k”
+problem to solve m maximum ﬂow problems.
